@@ -1,0 +1,491 @@
+[
+  {
+    "id": "chicken-chickpea-curry",
+    "name": "Chicken & Chickpea Curry with Basmati",
+    "track": "stovetop",
+    "protein_source": "chicken",
+    "active_min": 25,
+    "total_min": 40,
+    "reheat": "Microwave 2:30 at 800 W, stir at halfway.",
+    "cold_ok": false,
+    "per_portion": {
+      "chicken_breast": 220,
+      "chickpeas_canned": 110,
+      "spinach_frozen": 100,
+      "coconut_milk_light": 60,
+      "tomato_paste": 25,
+      "onion": 60,
+      "garlic": 8,
+      "basmati_rice": 75,
+      "olive_oil": 8,
+      "curry_powder": 4,
+      "cumin": 2,
+      "salt_pepper": 1
+    },
+    "steps": [
+      "Rinse the basmati until the water runs clear, then simmer it in 1.5× its volume of salted water, lid on, 11 minutes. Kill the heat and leave it covered for 10 more.",
+      "Dice the chicken into 3 cm cubes. Sear it in the olive oil over high heat in batches — crowd the pan and it steams instead of browning. Set aside.",
+      "Drop the heat to medium. Sweat the diced onion 5 minutes, add the crushed garlic, curry powder and cumin, and fry 60 seconds until the spices smell toasted.",
+      "Stir in the tomato paste and cook it out for 2 minutes, then add the coconut milk and 100 ml water per portion. Simmer 5 minutes.",
+      "Return the chicken with the drained chickpeas and the spinach. Simmer 8 minutes until the sauce coats a spoon. Season hard — it dulls in the fridge.",
+      "Cool uncovered 20 minutes, then portion rice and curry into containers."
+    ],
+    "step_at": [
+      0,
+      3,
+      11,
+      17,
+      24,
+      32
+    ],
+    "step_min": [
+      21,
+      8,
+      6,
+      7,
+      8,
+      8
+    ]
+  },
+  {
+    "id": "turkey-chili",
+    "name": "Turkey Chili with Kidney & Black Beans",
+    "track": "stovetop",
+    "protein_source": "turkey",
+    "active_min": 20,
+    "total_min": 45,
+    "reheat": "Microwave 3:00 at 800 W. Reheats better than almost anything else here.",
+    "cold_ok": false,
+    "per_portion": {
+      "turkey_mince": 200,
+      "kidney_beans_canned": 100,
+      "black_beans_canned": 80,
+      "corn_canned": 50,
+      "chopped_tomatoes": 150,
+      "tomato_paste": 20,
+      "bell_pepper": 80,
+      "onion": 60,
+      "garlic": 8,
+      "brown_rice": 70,
+      "olive_oil": 8,
+      "cumin": 3,
+      "smoked_paprika": 3,
+      "chili_flakes": 1,
+      "salt_pepper": 1
+    },
+    "steps": [
+      "Start the wholegrain rice: 25 minutes at a bare simmer, lid on, then 5 minutes off the heat.",
+      "Brown the turkey mince in the olive oil over high heat without stirring for the first 3 minutes — you want colour on it, not grey crumbs.",
+      "Add the diced onion and pepper, cook 6 minutes, then the garlic, cumin, smoked paprika and chilli for a minute.",
+      "Stir in the tomato paste, cook 2 minutes, then the chopped tomatoes and 100 ml water per portion.",
+      "Add the drained beans and corn. Simmer uncovered 20 minutes until it thickens — a chilli that's loose now will be watery on Thursday.",
+      "Cool uncovered, then portion over the rice."
+    ],
+    "step_at": [
+      0,
+      3,
+      10,
+      17,
+      20,
+      40
+    ],
+    "step_min": [
+      30,
+      7,
+      7,
+      3,
+      20,
+      5
+    ]
+  },
+  {
+    "id": "salmon-beluga-lentils",
+    "name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
+    "track": "oven",
+    "protein_source": "fish",
+    "active_min": 15,
+    "total_min": 40,
+    "reheat": "Microwave 1:45 at 600 W — low and slow, or the salmon goes dry and fishy.",
+    "cold_ok": true,
+    "per_portion": {
+      "wild_salmon": 200,
+      "beluga_lentils": 80,
+      "broccoli": 150,
+      "skyr": 80,
+      "lemon": 25,
+      "dill": 5,
+      "garlic": 5,
+      "olive_oil": 8,
+      "salt_pepper": 1
+    },
+    "steps": [
+      "Oven to 200 °C fan. Simmer the beluga lentils in plenty of salted water for 20 minutes — they should hold their shape, not collapse.",
+      "Toss the broccoli florets in half the olive oil, salt and pepper. Roast 18 minutes on the top shelf until the edges char.",
+      "Pat the thawed salmon dry, oil it, season, and roast 11–12 minutes on a lined tray. Pull it at just-opaque; it carries on cooking as it cools.",
+      "Mix the skyr with grated garlic, chopped dill, lemon zest and juice, salt and pepper. Loosen with a splash of water to a spoonable sauce.",
+      "Drain the lentils, dress them while warm with the remaining oil and a squeeze of lemon — warm lentils absorb dressing, cold ones don't.",
+      "Cool everything before boxing. The skyr sauce goes in a separate small container and gets spooned on at the desk."
+    ],
+    "step_at": [
+      0,
+      4,
+      10,
+      22,
+      27,
+      30
+    ],
+    "step_min": [
+      22,
+      18,
+      12,
+      5,
+      3,
+      10
+    ]
+  },
+  {
+    "id": "beef-black-bean-bowl",
+    "name": "Beef & Black Bean Burrito Bowl",
+    "track": "stovetop",
+    "protein_source": "beef",
+    "active_min": 20,
+    "total_min": 40,
+    "reheat": "Microwave 2:45 at 800 W.",
+    "cold_ok": false,
+    "per_portion": {
+      "beef_mince_lean": 180,
+      "black_beans_canned": 120,
+      "corn_canned": 60,
+      "bell_pepper": 80,
+      "passata": 120,
+      "brown_rice": 70,
+      "gouda_grated": 30,
+      "onion": 50,
+      "garlic": 8,
+      "olive_oil": 8,
+      "cumin": 3,
+      "smoked_paprika": 2,
+      "lime": 15,
+      "salt_pepper": 1
+    },
+    "steps": [
+      "Get the wholegrain rice going — 25 minutes covered, 5 minutes resting off the heat.",
+      "Brown the beef mince hard in the olive oil. Leave it alone until a crust forms, then break it up.",
+      "Add onion and pepper for 6 minutes, then garlic, cumin and smoked paprika for one.",
+      "Pour in the passata plus 60 ml water per portion, add the drained beans and corn, and simmer 12 minutes until thick.",
+      "Finish off the heat with lime juice and a heavy hand of salt.",
+      "Box rice first, beef mixture on top, grated gouda over the hot mixture so it melts in."
+    ],
+    "step_at": [
+      0,
+      3,
+      10,
+      17,
+      29,
+      31
+    ],
+    "step_min": [
+      30,
+      7,
+      7,
+      12,
+      2,
+      9
+    ]
+  },
+  {
+    "id": "greek-chicken-bulgur",
+    "name": "Greek Chicken & Bulgur Bowl with Tzatziki",
+    "track": "oven",
+    "protein_source": "chicken",
+    "active_min": 20,
+    "total_min": 40,
+    "reheat": "Microwave 2:15 at 800 W. Tzatziki and cucumber stay out — add them cold.",
+    "cold_ok": true,
+    "per_portion": {
+      "chicken_breast": 200,
+      "bulgur": 70,
+      "chickpeas_canned": 120,
+      "cucumber": 80,
+      "skyr": 100,
+      "bell_pepper": 80,
+      "red_onion": 40,
+      "feta": 25,
+      "lemon": 25,
+      "garlic": 8,
+      "olive_oil": 10,
+      "oregano": 3,
+      "salt_pepper": 1
+    },
+    "steps": [
+      "Oven to 210 °C fan. Marinate the chicken in half the olive oil, oregano, half the garlic, lemon zest, salt and pepper — 15 minutes is enough.",
+      "Pour boiling salted water over the bulgur at 2:1 by volume, cover, stand 15 minutes, fork through.",
+      "Roast the chicken with the sliced pepper and red onion for 20 minutes, until 72 °C in the thickest part. Rest 5 minutes, then slice across the grain.",
+      "Grate the cucumber, squeeze out the water properly with your hands, and mix with the skyr, remaining grated garlic, lemon juice and salt.",
+      "Fold the drained chickpeas and remaining oil through the warm bulgur.",
+      "Box bulgur, then chicken and vegetables, crumbled feta on top. Tzatziki in a separate container — mixed in on Sunday it turns the bulgur to paste by Tuesday."
+    ],
+    "step_at": [
+      0,
+      5,
+      12,
+      20,
+      28,
+      37
+    ],
+    "step_min": [
+      15,
+      15,
+      25,
+      8,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "peanut-tofu-noodles",
+    "name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+    "track": "stovetop",
+    "protein_source": "tofu",
+    "active_min": 20,
+    "total_min": 30,
+    "reheat": "Microwave 2:00 at 800 W, or eat it cold — it is genuinely good cold.",
+    "cold_ok": true,
+    "per_portion": {
+      "smoked_tofu": 200,
+      "edamame_frozen": 150,
+      "wholewheat_pasta": 80,
+      "broccoli": 120,
+      "peanut_butter": 30,
+      "soy_sauce": 20,
+      "carrot": 60,
+      "lime": 15,
+      "garlic": 8,
+      "ginger": 8,
+      "sesame_oil": 6,
+      "olive_oil": 6,
+      "chili_flakes": 1
+    },
+    "steps": [
+      "Boil the wholewheat pasta one minute short of the packet time. Drop the broccoli and edamame in for the last 3 minutes. Save a mug of the cooking water, then drain and rinse under cold water to stop the cooking.",
+      "Cube the smoked tofu and fry it in the olive oil until crisp on at least three sides — 8 minutes, don't rush it.",
+      "Whisk the peanut butter, soy sauce, lime juice, grated garlic and ginger, sesame oil and chilli with 60 ml of the pasta water per portion until it pours like cream.",
+      "Julienne the carrot raw — it keeps its bite all week where cooked carrot goes soft.",
+      "Toss everything together while the noodles are still cool. Loosen with more pasta water if it tightens.",
+      "Box straight away. This one needs no cooling time."
+    ],
+    "step_at": [
+      0,
+      2,
+      12,
+      17,
+      21,
+      26
+    ],
+    "step_min": [
+      12,
+      10,
+      5,
+      4,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "turkey-meatballs-fusilli",
+    "name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+    "track": "oven",
+    "protein_source": "turkey",
+    "active_min": 25,
+    "total_min": 45,
+    "reheat": "Microwave 2:45 at 800 W.",
+    "cold_ok": false,
+    "per_portion": {
+      "turkey_mince": 200,
+      "oats": 20,
+      "passata": 180,
+      "wholewheat_pasta": 80,
+      "peas_frozen": 100,
+      "parmesan": 20,
+      "onion": 50,
+      "tomato_paste": 15,
+      "garlic": 8,
+      "olive_oil": 8,
+      "oregano": 3,
+      "chili_flakes": 1,
+      "salt_pepper": 1
+    },
+    "steps": [
+      "Oven to 200 °C fan. Blitz or crush the oats to a coarse meal and mix into the turkey mince with half the grated onion, half the garlic, oregano, salt and pepper. Roll into 4 cm balls.",
+      "Roast the meatballs on a lined tray for 18 minutes. No frying, no turning.",
+      "Meanwhile sweat the remaining onion in the olive oil, add the garlic and chilli, then the tomato paste for 2 minutes.",
+      "Add the passata and 80 ml water per portion. Simmer 15 minutes until it darkens and thickens.",
+      "Boil the fusilli one minute short of the packet time — it softens further on reheating. Add the peas for the final 2 minutes. Drain.",
+      "Fold the meatballs through the sauce off the heat. Box pasta, then meatballs and sauce, parmesan over the top."
+    ],
+    "step_at": [
+      0,
+      12,
+      12,
+      18,
+      20,
+      33
+    ],
+    "step_min": [
+      12,
+      18,
+      6,
+      15,
+      12,
+      12
+    ]
+  },
+  {
+    "id": "harissa-chicken-quinoa",
+    "name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+    "track": "oven",
+    "protein_source": "chicken",
+    "active_min": 15,
+    "total_min": 40,
+    "reheat": "Microwave 2:15 at 800 W. Skyr goes on afterwards.",
+    "cold_ok": true,
+    "per_portion": {
+      "chicken_breast": 200,
+      "quinoa": 70,
+      "white_beans_canned": 120,
+      "zucchini": 100,
+      "bell_pepper": 80,
+      "red_onion": 50,
+      "skyr": 60,
+      "harissa": 15,
+      "lemon": 25,
+      "garlic": 8,
+      "olive_oil": 10,
+      "cumin": 2,
+      "salt_pepper": 1
+    },
+    "steps": [
+      "Oven to 210 °C fan. Rub the chicken with the harissa, half the oil, cumin, garlic and salt.",
+      "Rinse the quinoa — skipping this leaves it bitter — then simmer 15 minutes in salted water and drain well.",
+      "Toss the courgette, pepper and red onion in the rest of the oil on a large tray. Give them room; a crowded tray steams.",
+      "Slide the chicken onto the same tray and roast 22 minutes, until the chicken hits 72 °C and the vegetable edges catch.",
+      "Fold the drained white beans and lemon juice through the warm quinoa.",
+      "Rest and slice the chicken. Box quinoa, vegetables, chicken. Skyr in a separate pot, thinned with lemon and salt."
+    ],
+    "step_at": [
+      0,
+      4,
+      8,
+      13,
+      22,
+      35
+    ],
+    "step_min": [
+      8,
+      18,
+      5,
+      22,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "pollock-white-bean-stew",
+    "name": "Alaska Pollock & White Bean Stew with Barley",
+    "track": "stovetop",
+    "protein_source": "fish",
+    "active_min": 20,
+    "total_min": 45,
+    "reheat": "Microwave 2:00 at 600 W. Low power — high power turns the fish rubbery.",
+    "cold_ok": false,
+    "per_portion": {
+      "pollock": 250,
+      "white_beans_canned": 130,
+      "pearl_barley": 60,
+      "chopped_tomatoes": 150,
+      "bell_pepper": 80,
+      "fennel": 80,
+      "onion": 60,
+      "carrot": 60,
+      "garlic": 8,
+      "olive_oil": 8,
+      "paprika_powder": 3,
+      "lemon": 25,
+      "parsley": 5,
+      "stock_cube": 4,
+      "salt_pepper": 1
+    },
+    "steps": [
+      "Simmer the pearl barley in salted water 30 minutes until tender with a slight chew. Drain.",
+      "Sweat the diced onion, fennel, carrot and pepper in the olive oil for 10 minutes — soft, not coloured.",
+      "Add garlic and sweet paprika for a minute, then the chopped tomatoes, crumbled stock cube and 150 ml water per portion. Simmer 12 minutes.",
+      "Stir in the drained white beans. Lay the thawed pollock on top in large pieces, cover, and poach 6–7 minutes. Don't stir — you want flakes, not shreds.",
+      "Break the fish into big pieces through the stew. Finish with lemon juice and chopped parsley.",
+      "Cool uncovered, then box the barley with the stew ladled over."
+    ],
+    "step_at": [
+      0,
+      5,
+      15,
+      28,
+      36,
+      38
+    ],
+    "step_min": [
+      32,
+      10,
+      13,
+      8,
+      2,
+      7
+    ]
+  },
+  {
+    "id": "chicken-teriyaki-bowl",
+    "name": "Chicken Teriyaki Bowl with Broccoli & Edamame",
+    "track": "stovetop",
+    "protein_source": "chicken",
+    "active_min": 20,
+    "total_min": 35,
+    "reheat": "Microwave 2:15 at 800 W.",
+    "cold_ok": false,
+    "per_portion": {
+      "chicken_breast": 210,
+      "edamame_frozen": 120,
+      "broccoli": 150,
+      "basmati_rice": 75,
+      "carrot": 60,
+      "soy_sauce": 25,
+      "honey": 10,
+      "ginger": 10,
+      "garlic": 8,
+      "sesame_oil": 5,
+      "olive_oil": 6,
+      "chili_flakes": 1
+    },
+    "steps": [
+      "Rinse and cook the basmati: 11 minutes covered at a low simmer, 10 minutes resting off the heat.",
+      "Whisk the soy sauce, honey, grated ginger and garlic, sesame oil and chilli into a glaze.",
+      "Slice the chicken into strips and sear it in the olive oil over high heat, in two batches, until browned.",
+      "Steam the broccoli, sliced carrot and edamame for 4 minutes — they should stay bright and firm, since they get a second cooking in the microwave.",
+      "Return all the chicken to the pan, pour in the glaze and toss over high heat 2 minutes until it turns sticky and coats the strips.",
+      "Cool, then box rice, vegetables and chicken side by side rather than stirred together."
+    ],
+    "step_at": [
+      0,
+      3,
+      8,
+      18,
+      23,
+      27
+    ],
+    "step_min": [
+      21,
+      4,
+      10,
+      5,
+      3,
+      8
+    ]
+  }
+]

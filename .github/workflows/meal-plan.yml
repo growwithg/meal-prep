@@ -1,0 +1,93 @@
+name: Meal plan
+
+# Regenerates the week's plan every Friday morning and publishes the app.
+# 04:00 UTC is 06:00 in Berlin through summer time and 05:00 in winter —
+# either way, Friday morning, well before the Saturday shop.
+on:
+  schedule:
+    - cron: "0 4 * * 5"
+  push:
+    branches: [main]
+    paths:
+      - "app/**"
+      - "scripts/**"
+      - ".github/workflows/meal-plan.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: meal-plan
+  cancel-in-progress: false
+
+env:
+  TZ: Europe/Berlin
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check the planner guards
+        run: python3 scripts/test_plan.py
+
+      - name: Generate the upcoming week
+        # Only on the schedule or a manual run — a push that merely edits the
+        # stylesheet shouldn't silently swap out the meals mid-week.
+        if: github.event_name != 'push'
+        run: python3 scripts/generate_week.py
+
+      - name: Commit the new plan
+        if: github.event_name != 'push'
+        run: |
+          if git diff --quiet -- app/data; then
+            echo "plan unchanged, nothing to commit"
+            exit 0
+          fi
+          week=$(python3 -c "import json;print(json.load(open('app/data/plan.json'))['week_id'])")
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/data
+          git commit -m "Meal plan for $week"
+          git push
+
+      - name: Summarise
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          p = json.load(open("app/data/plan.json"))
+          print(f"## {p['week_id']}\n")
+          print(f"Shop by **{p['dates']['shop_by']}**, cook **{p['dates']['cook_on']}**, "
+                f"about **{p['summary']['cook_minutes']} minutes**.\n")
+          print("| Meal | Portions | Protein | Fibre |")
+          print("|---|---|---|---|")
+          for m in p["meals"]:
+              print(f"| {m['name']} | {m['portions']} | {m['macros']['protein']} g | {m['macros']['fiber']} g |")
+          PY
+
+      - uses: actions/configure-pages@v5
+        # Turns Pages on for the repo the first time this runs, so there's no
+        # setting to flip by hand.
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app
+
+  deploy:
+    needs: plan
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
