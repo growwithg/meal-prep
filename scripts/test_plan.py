@@ -113,6 +113,43 @@ def main():
         finally:
             g.OUT = real_out
 
+    # ── reroll swaps the meals and remembers what was eaten ─────────────────
+    with tempfile.TemporaryDirectory() as tmp:
+        real_out, g.OUT = g.OUT, Path(tmp)
+        try:
+            day = dt.date(2026, 8, 29)
+            first, hist = g.build_plan(day)
+            (Path(tmp) / "history.json").write_text(json.dumps(hist))
+            eaten = {m["id"] for m in first["meals"]}
+
+            second, hist = g.build_plan(day, reroll=True)
+            (Path(tmp) / "history.json").write_text(json.dumps(hist))
+            fresh = {m["id"] for m in second["meals"]}
+            check(not (eaten & fresh),
+                  f"reroll returned a meal that was already eaten: {sorted(eaten & fresh)}")
+            check(any(h.get("consumed") for h in hist),
+                  "reroll did not record the eaten meals as consumed")
+
+            # A plain re-run after a reroll must be stable, and must not bring
+            # the eaten meals back.
+            again, hist2 = g.build_plan(day)
+            check({m["id"] for m in again["meals"]} == fresh,
+                  "a plain re-run after a reroll changed the plan")
+            check(not (eaten & {m["id"] for m in again["meals"]}),
+                  "a plain re-run after a reroll resurrected the eaten meals")
+
+            # Rerolling repeatedly keeps finding something new until the
+            # library genuinely runs out.
+            seen = set(eaten) | set(fresh)
+            for _ in range(2):
+                nxt, hist = g.build_plan(day, reroll=True)
+                (Path(tmp) / "history.json").write_text(json.dumps(hist))
+                ids = {m["id"] for m in nxt["meals"]}
+                check(not (ids & seen), f"repeat reroll repeated a meal: {sorted(ids & seen)}")
+                seen |= ids
+        finally:
+            g.OUT = real_out
+
     if FAIL:
         print(f"FAILED ({len(FAIL)})")
         for f in FAIL[:20]:

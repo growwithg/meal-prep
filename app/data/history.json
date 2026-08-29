@@ -4,6 +4,14 @@
     "recipe_ids": [
       "harissa-chicken-quinoa",
       "beef-black-bean-bowl"
+    ],
+    "consumed": true
+  },
+  {
+    "week_id": "2026-W36",
+    "recipe_ids": [
+      "pollock-white-bean-stew",
+      "greek-chicken-bulgur"
     ]
   }
 ]

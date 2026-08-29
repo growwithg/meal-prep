@@ -54,6 +54,10 @@ today shows up the next time you open it.
 - **Seeded by the week**, so re-running the generator for a given week gives the
   same plan — including a re-run after the week has already been published,
   which must not move meals you may have shopped for.
+- **Rerollable.** If you've already eaten what's planned, `--reroll` (or the
+  *Run workflow* button on the Actions tab, with the reroll box ticked) records
+  those meals as eaten and picks a different pair. They stay excluded from the
+  rotation afterwards, so a later ordinary run won't bring them straight back.
 
 ### Where the meals sit in the week
 
@@ -85,6 +89,7 @@ per portion. Constraints they're written to:
 ```sh
 python3 scripts/generate_week.py            # write next week's plan
 python3 scripts/generate_week.py --dry-run  # print it without writing
+python3 scripts/generate_week.py --reroll   # already ate these — pick a different pair
 python3 scripts/generate_week.py --date 2026-09-11   # pretend it's that Friday
 python3 scripts/test_plan.py                # the checks below
 python3 scripts/make_icons.py               # redraw the app icons

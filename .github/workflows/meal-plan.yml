@@ -13,6 +13,11 @@ on:
       - "scripts/**"
       - ".github/workflows/meal-plan.yml"
   workflow_dispatch:
+    inputs:
+      reroll:
+        description: "Already eaten this week's meals? Pick a different pair."
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -43,7 +48,9 @@ jobs:
         # Only on the schedule or a manual run — a push that merely edits the
         # stylesheet shouldn't silently swap out the meals mid-week.
         if: github.event_name != 'push'
-        run: python3 scripts/generate_week.py
+        run: |
+          python3 scripts/generate_week.py \
+            ${{ github.event.inputs.reroll == 'true' && '--reroll' || '' }}
 
       - name: Commit the new plan
         if: github.event_name != 'push'

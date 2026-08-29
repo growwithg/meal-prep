@@ -50,26 +50,41 @@ def macros_for(recipe, ingredients):
     return {k: round(v, 1) for k, v in total.items()}
 
 
+def recent_ids(history, weeks):
+    """Recipe ids used across the last `weeks` distinct weeks in history.
+
+    Counted by week rather than by entry, because a rerolled week holds more
+    than one entry — the meals that were eaten and the ones that replaced them.
+    """
+    seen, ids = [], set()
+    for entry in reversed(history):
+        if entry["week_id"] not in seen:
+            if len(seen) == weeks:
+                break
+            seen.append(entry["week_id"])
+        ids.update(entry["recipe_ids"])
+    return ids
+
+
 def pick_recipes(recipes, history, week_monday):
     """One oven recipe and one stovetop recipe, so the two can run in parallel.
 
-    Recent recipes and duplicate protein sources are filtered out first; the
-    choice is seeded by the week so re-running the generator is idempotent.
+    Avoids anything cooked in the last few weeks and never pairs two meals with
+    the same protein. If the library is too small to honour the full exclusion
+    window, the window is narrowed a week at a time rather than the rule being
+    abandoned outright — a three-week-old repeat beats a one-week-old one. The
+    choice is seeded by the week, so re-running gives the same plan.
     """
-    recent = {rid for week in history[-HISTORY_WEEKS:] for rid in week["recipe_ids"]}
-    fresh = [r for r in recipes if r["id"] not in recent]
-    # If the library can't fill a fresh pair, fall back to the full list rather
-    # than failing — a repeat beats no plan.
-    pool = fresh if len({r["track"] for r in fresh}) == 2 else recipes
-
     rng = random.Random(week_monday.isoformat())
-    oven = [r for r in pool if r["track"] == "oven"]
-    stove = [r for r in pool if r["track"] == "stovetop"]
-    for _ in range(200):
-        a, b = rng.choice(oven), rng.choice(stove)
-        if a["protein_source"] != b["protein_source"]:
-            return a, b
-    return rng.choice(oven), rng.choice(stove)
+    for weeks in range(HISTORY_WEEKS, -1, -1):
+        pool = [r for r in recipes if r["id"] not in recent_ids(history, weeks)]
+        pairs = [(a, b)
+                 for a in pool if a["track"] == "oven"
+                 for b in pool if b["track"] == "stovetop"
+                 and a["protein_source"] != b["protein_source"]]
+        if pairs:
+            return rng.choice(pairs)
+    raise RuntimeError("no oven/stovetop pair with different proteins exists")
 
 
 def order_meals(a, b):
@@ -158,7 +173,7 @@ def build_timeline(first, second):
     return events, cook
 
 
-def build_plan(today=None):
+def build_plan(today=None, reroll=False):
     ingredients = {k: v for k, v in load("ingredients.json").items()
                    if not k.startswith("_")}
     recipes = load("recipes.json")
@@ -172,10 +187,17 @@ def build_plan(today=None):
     iso_year, iso_week, _ = monday.isocalendar()
     week_id = f"{iso_year}-W{iso_week:02d}"
 
-    # Drop any existing entry for this same week before choosing. Otherwise a
-    # re-run sees its own previous output as "recent", rules those recipes out,
-    # and picks a different plan — meals must not move once they're published.
-    history = [h for h in history if h["week_id"] != week_id]
+    # A reroll means the meals currently planned for this week have actually
+    # been eaten, so they're marked as such and stop being candidates.
+    if reroll:
+        for h in history:
+            if h["week_id"] == week_id:
+                h["consumed"] = True
+
+    # Keep this week's consumed entries — something already eaten must not come
+    # back — but drop a merely-planned one, so an ordinary re-run doesn't see
+    # its own previous output as "recent" and move meals already shopped for.
+    history = [h for h in history if h["week_id"] != week_id or h.get("consumed")]
     a, b = pick_recipes(recipes, history, monday)
     first, second, split = order_meals(a, b)
 
@@ -251,10 +273,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", help="pretend today is this ISO date (for testing)")
     ap.add_argument("--dry-run", action="store_true", help="print a summary, write nothing")
+    ap.add_argument("--reroll", action="store_true",
+                    help="this week's meals have been eaten — pick a different pair")
     args = ap.parse_args()
 
     today = dt.date.fromisoformat(args.date) if args.date else dt.date.today()
-    plan, history = build_plan(today)
+    plan, history = build_plan(today, reroll=args.reroll)
 
     if args.dry_run:
         s = plan["summary"]
