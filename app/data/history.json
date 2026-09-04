@@ -13,5 +13,12 @@
       "pollock-white-bean-stew",
       "greek-chicken-bulgur"
     ]
+  },
+  {
+    "week_id": "2026-W37",
+    "recipe_ids": [
+      "salmon-beluga-lentils",
+      "chicken-teriyaki-bowl"
+    ]
   }
 ]
