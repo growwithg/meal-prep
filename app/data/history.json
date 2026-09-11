@@ -20,5 +20,12 @@
       "salmon-beluga-lentils",
       "chicken-teriyaki-bowl"
     ]
+  },
+  {
+    "week_id": "2026-W38",
+    "recipe_ids": [
+      "turkey-meatballs-fusilli",
+      "peanut-tofu-noodles"
+    ]
   }
 ]

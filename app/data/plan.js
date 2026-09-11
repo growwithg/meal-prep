@@ -1,11 +1,11 @@
 window.__PLAN__ = {
-  "week_id": "2026-W37",
-  "generated_at": "2026-09-04T10:44:09",
+  "week_id": "2026-W38",
+  "generated_at": "2026-09-11T10:48:22",
   "dates": {
-    "shop_by": "2026-09-05",
-    "cook_on": "2026-09-06",
-    "week_start": "2026-09-07",
-    "week_end": "2026-09-11"
+    "shop_by": "2026-09-12",
+    "cook_on": "2026-09-13",
+    "week_start": "2026-09-14",
+    "week_end": "2026-09-18"
   },
   "targets": {
     "protein_per_day": 170,
@@ -13,187 +13,95 @@ window.__PLAN__ = {
     "lunch_max": 85
   },
   "summary": {
-    "cook_minutes": 40,
+    "cook_minutes": 45,
     "portions": 5,
-    "protein_low": 74.9,
-    "protein_high": 75.6,
-    "protein_avg": 75.3,
+    "protein_low": 70.0,
+    "protein_high": 75.0,
+    "protein_avg": 72.0,
     "in_target": true
   },
   "meals": [
     {
       "label": "A",
-      "portions": 2,
-      "id": "salmon-beluga-lentils",
-      "name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
+      "portions": 3,
+      "id": "turkey-meatballs-fusilli",
+      "name": "Turkey Meatballs in Tomato Sauce with Fusilli",
       "track": "oven",
-      "protein_source": "fish",
-      "active_min": 15,
-      "total_min": 40,
-      "reheat": "Microwave 1:45 at 600 W — low and slow, or the salmon goes dry and fishy.",
-      "cold_ok": true,
+      "protein_source": "turkey",
+      "active_min": 25,
+      "total_min": 45,
+      "reheat": "Microwave 2:45 at 800 W.",
+      "cold_ok": false,
       "macros": {
-        "protein": 74.9,
-        "carbs": 47.8,
-        "fiber": 16.6,
-        "fat": 26.3,
-        "kcal": 768.0
+        "protein": 70.0,
+        "carbs": 88.5,
+        "fiber": 20.1,
+        "fat": 34.5,
+        "kcal": 990.6
       },
       "steps": [
-        "Oven to 200 °C fan. Simmer the beluga lentils in plenty of salted water for 20 minutes — they should hold their shape, not collapse.",
-        "Toss the broccoli florets in half the olive oil, salt and pepper. Roast 18 minutes on the top shelf until the edges char.",
-        "Pat the thawed salmon dry, oil it, season, and roast 11–12 minutes on a lined tray. Pull it at just-opaque; it carries on cooking as it cools.",
-        "Mix the skyr with grated garlic, chopped dill, lemon zest and juice, salt and pepper. Loosen with a splash of water to a spoonable sauce.",
-        "Drain the lentils, dress them while warm with the remaining oil and a squeeze of lemon — warm lentils absorb dressing, cold ones don't.",
-        "Cool everything before boxing. The skyr sauce goes in a separate small container and gets spooned on at the desk."
+        "Oven to 200 °C fan. Blitz or crush the oats to a coarse meal and mix into the turkey mince with half the grated onion, half the garlic, oregano, salt and pepper. Roll into 4 cm balls.",
+        "Roast the meatballs on a lined tray for 18 minutes. No frying, no turning.",
+        "Meanwhile sweat the remaining onion in the olive oil, add the garlic and chilli, then the tomato paste for 2 minutes.",
+        "Add the passata and 80 ml water per portion. Simmer 15 minutes until it darkens and thickens.",
+        "Boil the fusilli one minute short of the packet time — it softens further on reheating. Add the peas for the final 2 minutes. Drain.",
+        "Fold the meatballs through the sauce off the heat. Box pasta, then meatballs and sauce, parmesan over the top."
       ],
       "ingredients": [
         {
-          "de": "Wildlachsfilet, Alaska (MSC, TK)",
-          "en": "Wild-caught salmon fillet",
+          "de": "Putenhackfleisch",
+          "en": "Turkey mince",
           "per_portion": 200,
-          "total": 400,
+          "total": 600,
           "unit": "g"
         },
         {
-          "de": "Belugalinsen",
-          "en": "Beluga lentils, dry",
+          "de": "Haferflocken zart",
+          "en": "Rolled oats",
+          "per_portion": 20,
+          "total": 60,
+          "unit": "g"
+        },
+        {
+          "de": "Passierte Tomaten",
+          "en": "Passata",
+          "per_portion": 180,
+          "total": 540,
+          "unit": "g"
+        },
+        {
+          "de": "Vollkorn-Fusilli",
+          "en": "Wholewheat fusilli, dry",
           "per_portion": 80,
-          "total": 160,
+          "total": 240,
           "unit": "g"
         },
         {
-          "de": "Brokkoli",
-          "en": "Broccoli",
-          "per_portion": 150,
+          "de": "Erbsen (TK)",
+          "en": "Peas, frozen",
+          "per_portion": 100,
           "total": 300,
           "unit": "g"
         },
         {
-          "de": "Skyr Natur",
-          "en": "Skyr, plain",
-          "per_portion": 80,
-          "total": 160,
+          "de": "Parmigiano Reggiano",
+          "en": "Parmesan",
+          "per_portion": 20,
+          "total": 60,
           "unit": "g"
         },
         {
-          "de": "Zitronen",
-          "en": "Lemons",
-          "per_portion": 25,
-          "total": 50,
+          "de": "Zwiebeln",
+          "en": "Onions",
+          "per_portion": 50,
+          "total": 150,
           "unit": "g"
         },
         {
-          "de": "Dill (Bund)",
-          "en": "Dill",
-          "per_portion": 5,
-          "total": 10,
-          "unit": "g"
-        },
-        {
-          "de": "Knoblauch",
-          "en": "Garlic",
-          "per_portion": 5,
-          "total": 10,
-          "unit": "g"
-        },
-        {
-          "de": "Olivenöl",
-          "en": "Olive oil",
-          "per_portion": 8,
-          "total": 16,
-          "unit": "ml"
-        },
-        {
-          "de": "Salz & Pfeffer",
-          "en": "Salt & pepper",
-          "per_portion": 1,
-          "total": 2,
-          "unit": "g"
-        }
-      ]
-    },
-    {
-      "label": "B",
-      "portions": 3,
-      "id": "chicken-teriyaki-bowl",
-      "name": "Chicken Teriyaki Bowl with Broccoli & Edamame",
-      "track": "stovetop",
-      "protein_source": "chicken",
-      "active_min": 20,
-      "total_min": 35,
-      "reheat": "Microwave 2:15 at 800 W.",
-      "cold_ok": false,
-      "macros": {
-        "protein": 75.6,
-        "carbs": 88.2,
-        "fiber": 14.1,
-        "fat": 21.3,
-        "kcal": 873.3
-      },
-      "steps": [
-        "Rinse and cook the basmati: 11 minutes covered at a low simmer, 10 minutes resting off the heat.",
-        "Whisk the soy sauce, honey, grated ginger and garlic, sesame oil and chilli into a glaze.",
-        "Slice the chicken into strips and sear it in the olive oil over high heat, in two batches, until browned.",
-        "Steam the broccoli, sliced carrot and edamame for 4 minutes — they should stay bright and firm, since they get a second cooking in the microwave.",
-        "Return all the chicken to the pan, pour in the glaze and toss over high heat 2 minutes until it turns sticky and coats the strips.",
-        "Cool, then box rice, vegetables and chicken side by side rather than stirred together."
-      ],
-      "ingredients": [
-        {
-          "de": "Hähnchenbrustfilet",
-          "en": "Chicken breast fillet",
-          "per_portion": 210,
-          "total": 630,
-          "unit": "g"
-        },
-        {
-          "de": "Edamame (TK)",
-          "en": "Edamame, frozen",
-          "per_portion": 120,
-          "total": 360,
-          "unit": "g"
-        },
-        {
-          "de": "Brokkoli",
-          "en": "Broccoli",
-          "per_portion": 150,
-          "total": 450,
-          "unit": "g"
-        },
-        {
-          "de": "Basmatireis",
-          "en": "Basmati rice, dry",
-          "per_portion": 75,
-          "total": 225,
-          "unit": "g"
-        },
-        {
-          "de": "Karotten",
-          "en": "Carrots",
-          "per_portion": 60,
-          "total": 180,
-          "unit": "g"
-        },
-        {
-          "de": "Sojasauce",
-          "en": "Soy sauce",
-          "per_portion": 25,
-          "total": 75,
-          "unit": "ml"
-        },
-        {
-          "de": "Honig",
-          "en": "Honey",
-          "per_portion": 10,
-          "total": 30,
-          "unit": "g"
-        },
-        {
-          "de": "Ingwer",
-          "en": "Ginger",
-          "per_portion": 10,
-          "total": 30,
+          "de": "Tomatenmark",
+          "en": "Tomato paste",
+          "per_portion": 15,
+          "total": 45,
           "unit": "g"
         },
         {
@@ -204,24 +112,151 @@ window.__PLAN__ = {
           "unit": "g"
         },
         {
-          "de": "Sesamöl",
-          "en": "Toasted sesame oil",
-          "per_portion": 5,
-          "total": 15,
+          "de": "Olivenöl",
+          "en": "Olive oil",
+          "per_portion": 8,
+          "total": 24,
           "unit": "ml"
         },
         {
-          "de": "Olivenöl",
-          "en": "Olive oil",
-          "per_portion": 6,
-          "total": 18,
-          "unit": "ml"
+          "de": "Oregano getrocknet",
+          "en": "Dried oregano",
+          "per_portion": 3,
+          "total": 9,
+          "unit": "g"
         },
         {
           "de": "Chiliflocken",
           "en": "Chilli flakes",
           "per_portion": 1,
           "total": 3,
+          "unit": "g"
+        },
+        {
+          "de": "Salz & Pfeffer",
+          "en": "Salt & pepper",
+          "per_portion": 1,
+          "total": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "label": "B",
+      "portions": 2,
+      "id": "peanut-tofu-noodles",
+      "name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "track": "stovetop",
+      "protein_source": "tofu",
+      "active_min": 20,
+      "total_min": 30,
+      "reheat": "Microwave 2:00 at 800 W, or eat it cold — it is genuinely good cold.",
+      "cold_ok": true,
+      "macros": {
+        "protein": 75.0,
+        "carbs": 79.8,
+        "fiber": 26.5,
+        "fat": 57.4,
+        "kcal": 1188.4
+      },
+      "steps": [
+        "Boil the wholewheat pasta one minute short of the packet time. Drop the broccoli and edamame in for the last 3 minutes. Save a mug of the cooking water, then drain and rinse under cold water to stop the cooking.",
+        "Cube the smoked tofu and fry it in the olive oil until crisp on at least three sides — 8 minutes, don't rush it.",
+        "Whisk the peanut butter, soy sauce, lime juice, grated garlic and ginger, sesame oil and chilli with 60 ml of the pasta water per portion until it pours like cream.",
+        "Julienne the carrot raw — it keeps its bite all week where cooked carrot goes soft.",
+        "Toss everything together while the noodles are still cool. Loosen with more pasta water if it tightens.",
+        "Box straight away. This one needs no cooling time."
+      ],
+      "ingredients": [
+        {
+          "de": "Räuchertofu",
+          "en": "Smoked tofu",
+          "per_portion": 200,
+          "total": 400,
+          "unit": "g"
+        },
+        {
+          "de": "Edamame (TK)",
+          "en": "Edamame, frozen",
+          "per_portion": 150,
+          "total": 300,
+          "unit": "g"
+        },
+        {
+          "de": "Vollkorn-Fusilli",
+          "en": "Wholewheat fusilli, dry",
+          "per_portion": 80,
+          "total": 160,
+          "unit": "g"
+        },
+        {
+          "de": "Brokkoli",
+          "en": "Broccoli",
+          "per_portion": 120,
+          "total": 240,
+          "unit": "g"
+        },
+        {
+          "de": "Erdnussmus",
+          "en": "Peanut butter, unsweetened",
+          "per_portion": 30,
+          "total": 60,
+          "unit": "g"
+        },
+        {
+          "de": "Sojasauce",
+          "en": "Soy sauce",
+          "per_portion": 20,
+          "total": 40,
+          "unit": "ml"
+        },
+        {
+          "de": "Karotten",
+          "en": "Carrots",
+          "per_portion": 60,
+          "total": 120,
+          "unit": "g"
+        },
+        {
+          "de": "Limetten",
+          "en": "Limes",
+          "per_portion": 15,
+          "total": 30,
+          "unit": "g"
+        },
+        {
+          "de": "Knoblauch",
+          "en": "Garlic",
+          "per_portion": 8,
+          "total": 16,
+          "unit": "g"
+        },
+        {
+          "de": "Ingwer",
+          "en": "Ginger",
+          "per_portion": 8,
+          "total": 16,
+          "unit": "g"
+        },
+        {
+          "de": "Sesamöl",
+          "en": "Toasted sesame oil",
+          "per_portion": 6,
+          "total": 12,
+          "unit": "ml"
+        },
+        {
+          "de": "Olivenöl",
+          "en": "Olive oil",
+          "per_portion": 6,
+          "total": 12,
+          "unit": "ml"
+        },
+        {
+          "de": "Chiliflocken",
+          "en": "Chilli flakes",
+          "per_portion": 1,
+          "total": 2,
           "unit": "g"
         }
       ]
@@ -230,36 +265,36 @@ window.__PLAN__ = {
   "schedule": [
     {
       "day": "Monday",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Tuesday",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Wednesday",
-      "recipe_id": "chicken-teriyaki-bowl",
-      "recipe_name": "Chicken Teriyaki Bowl with Broccoli & Edamame",
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Thursday",
-      "recipe_id": "chicken-teriyaki-bowl",
-      "recipe_name": "Chicken Teriyaki Bowl with Broccoli & Edamame",
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
       "storage": "freezer",
       "note": "Freeze Sunday. Move to the fridge on Wednesday evening."
     },
     {
       "day": "Friday",
-      "recipe_id": "chicken-teriyaki-bowl",
-      "recipe_name": "Chicken Teriyaki Bowl with Broccoli & Edamame",
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
       "storage": "freezer",
       "note": "Freeze Sunday. Move to the fridge on Wednesday evening."
     }
@@ -272,18 +307,18 @@ window.__PLAN__ = {
           "id": "broccoli",
           "de": "Brokkoli",
           "en": "Broccoli",
-          "need": 750,
+          "need": 240,
           "unit": "g",
-          "packs": 2,
+          "packs": 1,
           "pack_size": 500,
-          "buy_label": "2 × 500 g",
+          "buy_label": "1 × 500 g",
           "pantry": false
         },
         {
           "id": "carrot",
           "de": "Karotten",
           "en": "Carrots",
-          "need": 180,
+          "need": 120,
           "unit": "g",
           "packs": 1,
           "pack_size": 1000,
@@ -291,21 +326,10 @@ window.__PLAN__ = {
           "pantry": false
         },
         {
-          "id": "dill",
-          "de": "Dill (Bund)",
-          "en": "Dill",
-          "need": 10,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 20,
-          "buy_label": "1 × 20 g",
-          "pantry": false
-        },
-        {
           "id": "garlic",
           "de": "Knoblauch",
           "en": "Garlic",
-          "need": 34,
+          "need": 40,
           "unit": "g",
           "packs": 1,
           "pack_size": 50,
@@ -317,7 +341,7 @@ window.__PLAN__ = {
           "id": "ginger",
           "de": "Ingwer",
           "en": "Ginger",
-          "need": 30,
+          "need": 16,
           "unit": "g",
           "packs": 1,
           "pack_size": 100,
@@ -325,16 +349,27 @@ window.__PLAN__ = {
           "pantry": false
         },
         {
-          "id": "lemon",
-          "de": "Zitronen",
-          "en": "Lemons",
-          "need": 50,
+          "id": "lime",
+          "de": "Limetten",
+          "en": "Limes",
+          "need": 30,
           "unit": "g",
           "packs": 1,
-          "pack_size": 100,
-          "buy_label": "1 × 100 g",
+          "pack_size": 70,
+          "buy_label": "1 × 70 g",
           "pantry": false,
-          "note": "One lemon is roughly 100 g."
+          "note": "One lime is roughly 70 g."
+        },
+        {
+          "id": "onion",
+          "de": "Zwiebeln",
+          "en": "Onions",
+          "need": 150,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 500,
+          "buy_label": "1 × 500 g",
+          "pantry": false
         }
       ]
     },
@@ -342,14 +377,14 @@ window.__PLAN__ = {
       "aisle": "Fresh meat & fish",
       "items": [
         {
-          "id": "chicken_breast",
-          "de": "Hähnchenbrustfilet",
-          "en": "Chicken breast fillet",
-          "need": 630,
+          "id": "turkey_mince",
+          "de": "Putenhackfleisch",
+          "en": "Turkey mince",
+          "need": 600,
           "unit": "g",
           "packs": 2,
-          "pack_size": 400,
-          "buy_label": "2 × 400 g",
+          "pack_size": 500,
+          "buy_label": "2 × 500 g",
           "pantry": false
         }
       ]
@@ -358,14 +393,25 @@ window.__PLAN__ = {
       "aisle": "Chilled & dairy",
       "items": [
         {
-          "id": "skyr",
-          "de": "Skyr Natur",
-          "en": "Skyr, plain",
-          "need": 160,
+          "id": "parmesan",
+          "de": "Parmigiano Reggiano",
+          "en": "Parmesan",
+          "need": 60,
           "unit": "g",
           "packs": 1,
-          "pack_size": 450,
-          "buy_label": "1 × 450 g",
+          "pack_size": 150,
+          "buy_label": "1 × 150 g",
+          "pantry": false
+        },
+        {
+          "id": "smoked_tofu",
+          "de": "Räuchertofu",
+          "en": "Smoked tofu",
+          "need": 400,
+          "unit": "g",
+          "packs": 2,
+          "pack_size": 200,
+          "buy_label": "2 × 200 g",
           "pantry": false
         }
       ]
@@ -377,24 +423,50 @@ window.__PLAN__ = {
           "id": "edamame_frozen",
           "de": "Edamame (TK)",
           "en": "Edamame, frozen",
-          "need": 360,
+          "need": 300,
           "unit": "g",
-          "packs": 2,
+          "packs": 1,
           "pack_size": 300,
-          "buy_label": "2 × 300 g",
+          "buy_label": "1 × 300 g",
           "pantry": false
         },
         {
-          "id": "wild_salmon",
-          "de": "Wildlachsfilet, Alaska (MSC, TK)",
-          "en": "Wild-caught salmon fillet",
-          "need": 400,
+          "id": "peas_frozen",
+          "de": "Erbsen (TK)",
+          "en": "Peas, frozen",
+          "need": 300,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 450,
+          "buy_label": "1 × 450 g",
+          "pantry": false
+        }
+      ]
+    },
+    {
+      "aisle": "Cans & jars",
+      "items": [
+        {
+          "id": "passata",
+          "de": "Passierte Tomaten",
+          "en": "Passata",
+          "need": 540,
           "unit": "g",
           "packs": 2,
-          "pack_size": 250,
-          "buy_label": "2 × 250 g",
-          "pantry": false,
-          "note": "MSC Alaska/Pacific only — never farmed Atlantic salmon."
+          "pack_size": 500,
+          "buy_label": "2 × 500 g",
+          "pantry": false
+        },
+        {
+          "id": "tomato_paste",
+          "de": "Tomatenmark",
+          "en": "Tomato paste",
+          "need": 45,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 200,
+          "buy_label": "1 × 200 g",
+          "pantry": false
         }
       ]
     },
@@ -402,10 +474,10 @@ window.__PLAN__ = {
       "aisle": "Dry goods",
       "items": [
         {
-          "id": "basmati_rice",
-          "de": "Basmatireis",
-          "en": "Basmati rice, dry",
-          "need": 225,
+          "id": "oats",
+          "de": "Haferflocken zart",
+          "en": "Rolled oats",
+          "need": 60,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
@@ -413,10 +485,21 @@ window.__PLAN__ = {
           "pantry": false
         },
         {
-          "id": "beluga_lentils",
-          "de": "Belugalinsen",
-          "en": "Beluga lentils, dry",
-          "need": 160,
+          "id": "peanut_butter",
+          "de": "Erdnussmus",
+          "en": "Peanut butter, unsweetened",
+          "need": 60,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 350,
+          "buy_label": "1 × 350 g",
+          "pantry": false
+        },
+        {
+          "id": "wholewheat_pasta",
+          "de": "Vollkorn-Fusilli",
+          "en": "Wholewheat fusilli, dry",
+          "need": 400,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
@@ -432,7 +515,7 @@ window.__PLAN__ = {
           "id": "chili_flakes",
           "de": "Chiliflocken",
           "en": "Chilli flakes",
-          "need": 3,
+          "need": 5,
           "unit": "g",
           "packs": 1,
           "pack_size": 30,
@@ -440,21 +523,10 @@ window.__PLAN__ = {
           "pantry": true
         },
         {
-          "id": "honey",
-          "de": "Honig",
-          "en": "Honey",
-          "need": 30,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 500,
-          "buy_label": "1 × 500 g",
-          "pantry": true
-        },
-        {
           "id": "olive_oil",
           "de": "Olivenöl",
           "en": "Olive oil",
-          "need": 34,
+          "need": 36,
           "unit": "ml",
           "packs": 1,
           "pack_size": 500,
@@ -462,10 +534,21 @@ window.__PLAN__ = {
           "pantry": true
         },
         {
+          "id": "oregano",
+          "de": "Oregano getrocknet",
+          "en": "Dried oregano",
+          "need": 9,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 20,
+          "buy_label": "1 × 20 g",
+          "pantry": true
+        },
+        {
           "id": "salt_pepper",
           "de": "Salz & Pfeffer",
           "en": "Salt & pepper",
-          "need": 2,
+          "need": 3,
           "unit": "g",
           "packs": 1,
           "pack_size": 100,
@@ -476,7 +559,7 @@ window.__PLAN__ = {
           "id": "sesame_oil",
           "de": "Sesamöl",
           "en": "Toasted sesame oil",
-          "need": 15,
+          "need": 12,
           "unit": "ml",
           "packs": 1,
           "pack_size": 250,
@@ -487,7 +570,7 @@ window.__PLAN__ = {
           "id": "soy_sauce",
           "de": "Sojasauce",
           "en": "Soy sauce",
-          "need": 75,
+          "need": 40,
           "unit": "ml",
           "packs": 1,
           "pack_size": 250,
@@ -501,122 +584,122 @@ window.__PLAN__ = {
     {
       "lane": "A",
       "track": "oven",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
       "at": 0,
-      "minutes": 22,
+      "minutes": 12,
       "step": 1,
-      "text": "Oven to 200 °C fan. Simmer the beluga lentils in plenty of salted water for 20 minutes — they should hold their shape, not collapse."
+      "text": "Oven to 200 °C fan. Blitz or crush the oats to a coarse meal and mix into the turkey mince with half the grated onion, half the garlic, oregano, salt and pepper. Roll into 4 cm balls."
     },
     {
       "lane": "B",
       "track": "stovetop",
-      "recipe_id": "chicken-teriyaki-bowl",
-      "recipe_name": "Chicken Teriyaki Bowl with Broccoli & Edamame",
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
       "at": 0,
-      "minutes": 21,
+      "minutes": 12,
       "step": 1,
-      "text": "Rinse and cook the basmati: 11 minutes covered at a low simmer, 10 minutes resting off the heat."
+      "text": "Boil the wholewheat pasta one minute short of the packet time. Drop the broccoli and edamame in for the last 3 minutes. Save a mug of the cooking water, then drain and rinse under cold water to stop the cooking."
     },
     {
       "lane": "B",
       "track": "stovetop",
-      "recipe_id": "chicken-teriyaki-bowl",
-      "recipe_name": "Chicken Teriyaki Bowl with Broccoli & Edamame",
-      "at": 3,
-      "minutes": 4,
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "at": 2,
+      "minutes": 10,
       "step": 2,
-      "text": "Whisk the soy sauce, honey, grated ginger and garlic, sesame oil and chilli into a glaze."
+      "text": "Cube the smoked tofu and fry it in the olive oil until crisp on at least three sides — 8 minutes, don't rush it."
     },
     {
       "lane": "A",
       "track": "oven",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
-      "at": 4,
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "at": 12,
       "minutes": 18,
       "step": 2,
-      "text": "Toss the broccoli florets in half the olive oil, salt and pepper. Roast 18 minutes on the top shelf until the edges char."
-    },
-    {
-      "lane": "B",
-      "track": "stovetop",
-      "recipe_id": "chicken-teriyaki-bowl",
-      "recipe_name": "Chicken Teriyaki Bowl with Broccoli & Edamame",
-      "at": 8,
-      "minutes": 10,
-      "step": 3,
-      "text": "Slice the chicken into strips and sear it in the olive oil over high heat, in two batches, until browned."
+      "text": "Roast the meatballs on a lined tray for 18 minutes. No frying, no turning."
     },
     {
       "lane": "A",
       "track": "oven",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
-      "at": 10,
-      "minutes": 12,
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "at": 12,
+      "minutes": 6,
       "step": 3,
-      "text": "Pat the thawed salmon dry, oil it, season, and roast 11–12 minutes on a lined tray. Pull it at just-opaque; it carries on cooking as it cools."
+      "text": "Meanwhile sweat the remaining onion in the olive oil, add the garlic and chilli, then the tomato paste for 2 minutes."
     },
     {
       "lane": "B",
       "track": "stovetop",
-      "recipe_id": "chicken-teriyaki-bowl",
-      "recipe_name": "Chicken Teriyaki Bowl with Broccoli & Edamame",
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "at": 12,
+      "minutes": 5,
+      "step": 3,
+      "text": "Whisk the peanut butter, soy sauce, lime juice, grated garlic and ginger, sesame oil and chilli with 60 ml of the pasta water per portion until it pours like cream."
+    },
+    {
+      "lane": "B",
+      "track": "stovetop",
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "at": 17,
+      "minutes": 4,
+      "step": 4,
+      "text": "Julienne the carrot raw — it keeps its bite all week where cooked carrot goes soft."
+    },
+    {
+      "lane": "A",
+      "track": "oven",
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
       "at": 18,
-      "minutes": 5,
+      "minutes": 15,
       "step": 4,
-      "text": "Steam the broccoli, sliced carrot and edamame for 4 minutes — they should stay bright and firm, since they get a second cooking in the microwave."
+      "text": "Add the passata and 80 ml water per portion. Simmer 15 minutes until it darkens and thickens."
     },
     {
       "lane": "A",
       "track": "oven",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
-      "at": 22,
-      "minutes": 5,
-      "step": 4,
-      "text": "Mix the skyr with grated garlic, chopped dill, lemon zest and juice, salt and pepper. Loosen with a splash of water to a spoonable sauce."
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "at": 20,
+      "minutes": 12,
+      "step": 5,
+      "text": "Boil the fusilli one minute short of the packet time — it softens further on reheating. Add the peas for the final 2 minutes. Drain."
     },
     {
       "lane": "B",
       "track": "stovetop",
-      "recipe_id": "chicken-teriyaki-bowl",
-      "recipe_name": "Chicken Teriyaki Bowl with Broccoli & Edamame",
-      "at": 23,
-      "minutes": 3,
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "at": 21,
+      "minutes": 5,
       "step": 5,
-      "text": "Return all the chicken to the pan, pour in the glaze and toss over high heat 2 minutes until it turns sticky and coats the strips."
-    },
-    {
-      "lane": "A",
-      "track": "oven",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
-      "at": 27,
-      "minutes": 3,
-      "step": 5,
-      "text": "Drain the lentils, dress them while warm with the remaining oil and a squeeze of lemon — warm lentils absorb dressing, cold ones don't."
+      "text": "Toss everything together while the noodles are still cool. Loosen with more pasta water if it tightens."
     },
     {
       "lane": "B",
       "track": "stovetop",
-      "recipe_id": "chicken-teriyaki-bowl",
-      "recipe_name": "Chicken Teriyaki Bowl with Broccoli & Edamame",
-      "at": 27,
-      "minutes": 8,
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "at": 26,
+      "minutes": 4,
       "step": 6,
-      "text": "Cool, then box rice, vegetables and chicken side by side rather than stirred together."
+      "text": "Box straight away. This one needs no cooling time."
     },
     {
       "lane": "A",
       "track": "oven",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
-      "at": 30,
-      "minutes": 10,
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "at": 33,
+      "minutes": 12,
       "step": 6,
-      "text": "Cool everything before boxing. The skyr sauce goes in a separate small container and gets spooned on at the desk."
+      "text": "Fold the meatballs through the sauce off the heat. Box pasta, then meatballs and sauce, parmesan over the top."
     }
   ]
 };
