@@ -1,11 +1,11 @@
 {
-  "week_id": "2026-W38",
-  "generated_at": "2026-09-11T10:48:22",
+  "week_id": "2026-W39",
+  "generated_at": "2026-09-18T10:55:29",
   "dates": {
-    "shop_by": "2026-09-12",
-    "cook_on": "2026-09-13",
-    "week_start": "2026-09-14",
-    "week_end": "2026-09-18"
+    "shop_by": "2026-09-19",
+    "cook_on": "2026-09-20",
+    "week_start": "2026-09-21",
+    "week_end": "2026-09-25"
   },
   "targets": {
     "protein_per_day": 170,
@@ -15,93 +15,234 @@
   "summary": {
     "cook_minutes": 45,
     "portions": 5,
-    "protein_low": 70.0,
-    "protein_high": 75.0,
-    "protein_avg": 72.0,
+    "protein_low": 66.3,
+    "protein_high": 75.5,
+    "protein_avg": 71.8,
     "in_target": true
   },
   "meals": [
     {
       "label": "A",
-      "portions": 3,
-      "id": "turkey-meatballs-fusilli",
-      "name": "Turkey Meatballs in Tomato Sauce with Fusilli",
-      "track": "oven",
-      "protein_source": "turkey",
-      "active_min": 25,
+      "portions": 2,
+      "id": "pollock-white-bean-stew",
+      "name": "Alaska Pollock & White Bean Stew with Barley",
+      "track": "stovetop",
+      "protein_source": "fish",
+      "active_min": 20,
       "total_min": 45,
-      "reheat": "Microwave 2:45 at 800 W.",
+      "reheat": "Microwave 2:00 at 600 W. Low power — high power turns the fish rubbery.",
       "cold_ok": false,
       "macros": {
-        "protein": 70.0,
-        "carbs": 88.5,
-        "fiber": 20.1,
-        "fat": 34.5,
-        "kcal": 990.6
+        "protein": 66.3,
+        "carbs": 83.1,
+        "fiber": 24.8,
+        "fat": 14.3,
+        "kcal": 772.5
       },
       "steps": [
-        "Oven to 200 °C fan. Blitz or crush the oats to a coarse meal and mix into the turkey mince with half the grated onion, half the garlic, oregano, salt and pepper. Roll into 4 cm balls.",
-        "Roast the meatballs on a lined tray for 18 minutes. No frying, no turning.",
-        "Meanwhile sweat the remaining onion in the olive oil, add the garlic and chilli, then the tomato paste for 2 minutes.",
-        "Add the passata and 80 ml water per portion. Simmer 15 minutes until it darkens and thickens.",
-        "Boil the fusilli one minute short of the packet time — it softens further on reheating. Add the peas for the final 2 minutes. Drain.",
-        "Fold the meatballs through the sauce off the heat. Box pasta, then meatballs and sauce, parmesan over the top."
+        "Simmer the pearl barley in salted water 30 minutes until tender with a slight chew. Drain.",
+        "Sweat the diced onion, fennel, carrot and pepper in the olive oil for 10 minutes — soft, not coloured.",
+        "Add garlic and sweet paprika for a minute, then the chopped tomatoes, crumbled stock cube and 150 ml water per portion. Simmer 12 minutes.",
+        "Stir in the drained white beans. Lay the thawed pollock on top in large pieces, cover, and poach 6–7 minutes. Don't stir — you want flakes, not shreds.",
+        "Break the fish into big pieces through the stew. Finish with lemon juice and chopped parsley.",
+        "Cool uncovered, then box the barley with the stew ladled over."
       ],
       "ingredients": [
         {
-          "de": "Putenhackfleisch",
-          "en": "Turkey mince",
-          "per_portion": 200,
-          "total": 600,
+          "de": "Alaska-Seelachsfilet (MSC, TK)",
+          "en": "Alaska pollock fillet",
+          "per_portion": 250,
+          "total": 500,
           "unit": "g"
         },
         {
-          "de": "Haferflocken zart",
-          "en": "Rolled oats",
-          "per_portion": 20,
-          "total": 60,
+          "de": "Weiße Bohnen (Dose)",
+          "en": "White beans, canned",
+          "per_portion": 130,
+          "total": 260,
           "unit": "g"
         },
         {
-          "de": "Passierte Tomaten",
-          "en": "Passata",
-          "per_portion": 180,
-          "total": 540,
+          "de": "Perlgraupen",
+          "en": "Pearl barley, dry",
+          "per_portion": 60,
+          "total": 120,
           "unit": "g"
         },
         {
-          "de": "Vollkorn-Fusilli",
-          "en": "Wholewheat fusilli, dry",
-          "per_portion": 80,
-          "total": 240,
-          "unit": "g"
-        },
-        {
-          "de": "Erbsen (TK)",
-          "en": "Peas, frozen",
-          "per_portion": 100,
+          "de": "Stückige Tomaten (Dose)",
+          "en": "Chopped tomatoes",
+          "per_portion": 150,
           "total": 300,
           "unit": "g"
         },
         {
-          "de": "Parmigiano Reggiano",
-          "en": "Parmesan",
-          "per_portion": 20,
-          "total": 60,
+          "de": "Paprika rot",
+          "en": "Red bell pepper",
+          "per_portion": 80,
+          "total": 160,
+          "unit": "g"
+        },
+        {
+          "de": "Fenchel",
+          "en": "Fennel bulb",
+          "per_portion": 80,
+          "total": 160,
           "unit": "g"
         },
         {
           "de": "Zwiebeln",
           "en": "Onions",
+          "per_portion": 60,
+          "total": 120,
+          "unit": "g"
+        },
+        {
+          "de": "Karotten",
+          "en": "Carrots",
+          "per_portion": 60,
+          "total": 120,
+          "unit": "g"
+        },
+        {
+          "de": "Knoblauch",
+          "en": "Garlic",
+          "per_portion": 8,
+          "total": 16,
+          "unit": "g"
+        },
+        {
+          "de": "Olivenöl",
+          "en": "Olive oil",
+          "per_portion": 8,
+          "total": 16,
+          "unit": "ml"
+        },
+        {
+          "de": "Paprikapulver edelsüß",
+          "en": "Sweet paprika",
+          "per_portion": 3,
+          "total": 6,
+          "unit": "g"
+        },
+        {
+          "de": "Zitronen",
+          "en": "Lemons",
+          "per_portion": 25,
+          "total": 50,
+          "unit": "g"
+        },
+        {
+          "de": "Petersilie (Bund)",
+          "en": "Flat-leaf parsley",
+          "per_portion": 5,
+          "total": 10,
+          "unit": "g"
+        },
+        {
+          "de": "Gemüsebrühe (Würfel)",
+          "en": "Vegetable stock cubes",
+          "per_portion": 4,
+          "total": 8,
+          "unit": "g"
+        },
+        {
+          "de": "Salz & Pfeffer",
+          "en": "Salt & pepper",
+          "per_portion": 1,
+          "total": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "label": "B",
+      "portions": 3,
+      "id": "harissa-chicken-quinoa",
+      "name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "track": "oven",
+      "protein_source": "chicken",
+      "active_min": 15,
+      "total_min": 40,
+      "reheat": "Microwave 2:15 at 800 W. Skyr goes on afterwards.",
+      "cold_ok": true,
+      "macros": {
+        "protein": 75.5,
+        "carbs": 73.1,
+        "fiber": 18.1,
+        "fat": 19.2,
+        "kcal": 810.2
+      },
+      "steps": [
+        "Oven to 210 °C fan. Rub the chicken with the harissa, half the oil, cumin, garlic and salt.",
+        "Rinse the quinoa — skipping this leaves it bitter — then simmer 15 minutes in salted water and drain well.",
+        "Toss the courgette, pepper and red onion in the rest of the oil on a large tray. Give them room; a crowded tray steams.",
+        "Slide the chicken onto the same tray and roast 22 minutes, until the chicken hits 72 °C and the vegetable edges catch.",
+        "Fold the drained white beans and lemon juice through the warm quinoa.",
+        "Rest and slice the chicken. Box quinoa, vegetables, chicken. Skyr in a separate pot, thinned with lemon and salt."
+      ],
+      "ingredients": [
+        {
+          "de": "Hähnchenbrustfilet",
+          "en": "Chicken breast fillet",
+          "per_portion": 200,
+          "total": 600,
+          "unit": "g"
+        },
+        {
+          "de": "Quinoa",
+          "en": "Quinoa, dry",
+          "per_portion": 70,
+          "total": 210,
+          "unit": "g"
+        },
+        {
+          "de": "Weiße Bohnen (Dose)",
+          "en": "White beans, canned",
+          "per_portion": 120,
+          "total": 360,
+          "unit": "g"
+        },
+        {
+          "de": "Zucchini",
+          "en": "Courgette",
+          "per_portion": 100,
+          "total": 300,
+          "unit": "g"
+        },
+        {
+          "de": "Paprika rot",
+          "en": "Red bell pepper",
+          "per_portion": 80,
+          "total": 240,
+          "unit": "g"
+        },
+        {
+          "de": "Rote Zwiebeln",
+          "en": "Red onions",
           "per_portion": 50,
           "total": 150,
           "unit": "g"
         },
         {
-          "de": "Tomatenmark",
-          "en": "Tomato paste",
+          "de": "Skyr Natur",
+          "en": "Skyr, plain",
+          "per_portion": 60,
+          "total": 180,
+          "unit": "g"
+        },
+        {
+          "de": "Harissa Paste",
+          "en": "Harissa paste",
           "per_portion": 15,
           "total": 45,
+          "unit": "g"
+        },
+        {
+          "de": "Zitronen",
+          "en": "Lemons",
+          "per_portion": 25,
+          "total": 75,
           "unit": "g"
         },
         {
@@ -114,22 +255,15 @@
         {
           "de": "Olivenöl",
           "en": "Olive oil",
-          "per_portion": 8,
-          "total": 24,
+          "per_portion": 10,
+          "total": 30,
           "unit": "ml"
         },
         {
-          "de": "Oregano getrocknet",
-          "en": "Dried oregano",
-          "per_portion": 3,
-          "total": 9,
-          "unit": "g"
-        },
-        {
-          "de": "Chiliflocken",
-          "en": "Chilli flakes",
-          "per_portion": 1,
-          "total": 3,
+          "de": "Kreuzkümmel gemahlen",
+          "en": "Ground cumin",
+          "per_portion": 2,
+          "total": 6,
           "unit": "g"
         },
         {
@@ -140,161 +274,41 @@
           "unit": "g"
         }
       ]
-    },
-    {
-      "label": "B",
-      "portions": 2,
-      "id": "peanut-tofu-noodles",
-      "name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
-      "track": "stovetop",
-      "protein_source": "tofu",
-      "active_min": 20,
-      "total_min": 30,
-      "reheat": "Microwave 2:00 at 800 W, or eat it cold — it is genuinely good cold.",
-      "cold_ok": true,
-      "macros": {
-        "protein": 75.0,
-        "carbs": 79.8,
-        "fiber": 26.5,
-        "fat": 57.4,
-        "kcal": 1188.4
-      },
-      "steps": [
-        "Boil the wholewheat pasta one minute short of the packet time. Drop the broccoli and edamame in for the last 3 minutes. Save a mug of the cooking water, then drain and rinse under cold water to stop the cooking.",
-        "Cube the smoked tofu and fry it in the olive oil until crisp on at least three sides — 8 minutes, don't rush it.",
-        "Whisk the peanut butter, soy sauce, lime juice, grated garlic and ginger, sesame oil and chilli with 60 ml of the pasta water per portion until it pours like cream.",
-        "Julienne the carrot raw — it keeps its bite all week where cooked carrot goes soft.",
-        "Toss everything together while the noodles are still cool. Loosen with more pasta water if it tightens.",
-        "Box straight away. This one needs no cooling time."
-      ],
-      "ingredients": [
-        {
-          "de": "Räuchertofu",
-          "en": "Smoked tofu",
-          "per_portion": 200,
-          "total": 400,
-          "unit": "g"
-        },
-        {
-          "de": "Edamame (TK)",
-          "en": "Edamame, frozen",
-          "per_portion": 150,
-          "total": 300,
-          "unit": "g"
-        },
-        {
-          "de": "Vollkorn-Fusilli",
-          "en": "Wholewheat fusilli, dry",
-          "per_portion": 80,
-          "total": 160,
-          "unit": "g"
-        },
-        {
-          "de": "Brokkoli",
-          "en": "Broccoli",
-          "per_portion": 120,
-          "total": 240,
-          "unit": "g"
-        },
-        {
-          "de": "Erdnussmus",
-          "en": "Peanut butter, unsweetened",
-          "per_portion": 30,
-          "total": 60,
-          "unit": "g"
-        },
-        {
-          "de": "Sojasauce",
-          "en": "Soy sauce",
-          "per_portion": 20,
-          "total": 40,
-          "unit": "ml"
-        },
-        {
-          "de": "Karotten",
-          "en": "Carrots",
-          "per_portion": 60,
-          "total": 120,
-          "unit": "g"
-        },
-        {
-          "de": "Limetten",
-          "en": "Limes",
-          "per_portion": 15,
-          "total": 30,
-          "unit": "g"
-        },
-        {
-          "de": "Knoblauch",
-          "en": "Garlic",
-          "per_portion": 8,
-          "total": 16,
-          "unit": "g"
-        },
-        {
-          "de": "Ingwer",
-          "en": "Ginger",
-          "per_portion": 8,
-          "total": 16,
-          "unit": "g"
-        },
-        {
-          "de": "Sesamöl",
-          "en": "Toasted sesame oil",
-          "per_portion": 6,
-          "total": 12,
-          "unit": "ml"
-        },
-        {
-          "de": "Olivenöl",
-          "en": "Olive oil",
-          "per_portion": 6,
-          "total": 12,
-          "unit": "ml"
-        },
-        {
-          "de": "Chiliflocken",
-          "en": "Chilli flakes",
-          "per_portion": 1,
-          "total": 2,
-          "unit": "g"
-        }
-      ]
     }
   ],
   "schedule": [
     {
       "day": "Monday",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "recipe_id": "pollock-white-bean-stew",
+      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Tuesday",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "recipe_id": "pollock-white-bean-stew",
+      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Wednesday",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Thursday",
-      "recipe_id": "peanut-tofu-noodles",
-      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
       "storage": "freezer",
       "note": "Freeze Sunday. Move to the fridge on Wednesday evening."
     },
     {
       "day": "Friday",
-      "recipe_id": "peanut-tofu-noodles",
-      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
       "storage": "freezer",
       "note": "Freeze Sunday. Move to the fridge on Wednesday evening."
     }
@@ -304,15 +318,16 @@
       "aisle": "Produce",
       "items": [
         {
-          "id": "broccoli",
-          "de": "Brokkoli",
-          "en": "Broccoli",
-          "need": 240,
+          "id": "bell_pepper",
+          "de": "Paprika rot",
+          "en": "Red bell pepper",
+          "need": 400,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
           "buy_label": "1 × 500 g",
-          "pantry": false
+          "pantry": false,
+          "note": "About 3 peppers to a 500 g pack."
         },
         {
           "id": "carrot",
@@ -323,6 +338,17 @@
           "packs": 1,
           "pack_size": 1000,
           "buy_label": "1 × 1000 g",
+          "pantry": false
+        },
+        {
+          "id": "fennel",
+          "de": "Fenchel",
+          "en": "Fennel bulb",
+          "need": 160,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 300,
+          "buy_label": "1 × 300 g",
           "pantry": false
         },
         {
@@ -338,37 +364,59 @@
           "note": "One bulb is roughly 50 g."
         },
         {
-          "id": "ginger",
-          "de": "Ingwer",
-          "en": "Ginger",
-          "need": 16,
+          "id": "lemon",
+          "de": "Zitronen",
+          "en": "Lemons",
+          "need": 125,
           "unit": "g",
-          "packs": 1,
+          "packs": 2,
           "pack_size": 100,
-          "buy_label": "1 × 100 g",
-          "pantry": false
-        },
-        {
-          "id": "lime",
-          "de": "Limetten",
-          "en": "Limes",
-          "need": 30,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 70,
-          "buy_label": "1 × 70 g",
+          "buy_label": "2 × 100 g",
           "pantry": false,
-          "note": "One lime is roughly 70 g."
+          "note": "One lemon is roughly 100 g."
         },
         {
           "id": "onion",
           "de": "Zwiebeln",
           "en": "Onions",
+          "need": 120,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 500,
+          "buy_label": "1 × 500 g",
+          "pantry": false
+        },
+        {
+          "id": "parsley",
+          "de": "Petersilie (Bund)",
+          "en": "Flat-leaf parsley",
+          "need": 10,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 20,
+          "buy_label": "1 × 20 g",
+          "pantry": false
+        },
+        {
+          "id": "red_onion",
+          "de": "Rote Zwiebeln",
+          "en": "Red onions",
           "need": 150,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
           "buy_label": "1 × 500 g",
+          "pantry": false
+        },
+        {
+          "id": "zucchini",
+          "de": "Zucchini",
+          "en": "Courgette",
+          "need": 300,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 400,
+          "buy_label": "1 × 400 g",
           "pantry": false
         }
       ]
@@ -377,14 +425,14 @@
       "aisle": "Fresh meat & fish",
       "items": [
         {
-          "id": "turkey_mince",
-          "de": "Putenhackfleisch",
-          "en": "Turkey mince",
+          "id": "chicken_breast",
+          "de": "Hähnchenbrustfilet",
+          "en": "Chicken breast fillet",
           "need": 600,
           "unit": "g",
           "packs": 2,
-          "pack_size": 500,
-          "buy_label": "2 × 500 g",
+          "pack_size": 400,
+          "buy_label": "2 × 400 g",
           "pantry": false
         }
       ]
@@ -393,48 +441,10 @@
       "aisle": "Chilled & dairy",
       "items": [
         {
-          "id": "parmesan",
-          "de": "Parmigiano Reggiano",
-          "en": "Parmesan",
-          "need": 60,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 150,
-          "buy_label": "1 × 150 g",
-          "pantry": false
-        },
-        {
-          "id": "smoked_tofu",
-          "de": "Räuchertofu",
-          "en": "Smoked tofu",
-          "need": 400,
-          "unit": "g",
-          "packs": 2,
-          "pack_size": 200,
-          "buy_label": "2 × 200 g",
-          "pantry": false
-        }
-      ]
-    },
-    {
-      "aisle": "Frozen",
-      "items": [
-        {
-          "id": "edamame_frozen",
-          "de": "Edamame (TK)",
-          "en": "Edamame, frozen",
-          "need": 300,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 300,
-          "buy_label": "1 × 300 g",
-          "pantry": false
-        },
-        {
-          "id": "peas_frozen",
-          "de": "Erbsen (TK)",
-          "en": "Peas, frozen",
-          "need": 300,
+          "id": "skyr",
+          "de": "Skyr Natur",
+          "en": "Skyr, plain",
+          "need": 180,
           "unit": "g",
           "packs": 1,
           "pack_size": 450,
@@ -444,29 +454,46 @@
       ]
     },
     {
+      "aisle": "Frozen",
+      "items": [
+        {
+          "id": "pollock",
+          "de": "Alaska-Seelachsfilet (MSC, TK)",
+          "en": "Alaska pollock fillet",
+          "need": 500,
+          "unit": "g",
+          "packs": 2,
+          "pack_size": 400,
+          "buy_label": "2 × 400 g",
+          "pantry": false
+        }
+      ]
+    },
+    {
       "aisle": "Cans & jars",
       "items": [
         {
-          "id": "passata",
-          "de": "Passierte Tomaten",
-          "en": "Passata",
-          "need": 540,
+          "id": "chopped_tomatoes",
+          "de": "Stückige Tomaten (Dose)",
+          "en": "Chopped tomatoes",
+          "need": 300,
           "unit": "g",
-          "packs": 2,
-          "pack_size": 500,
-          "buy_label": "2 × 500 g",
+          "packs": 1,
+          "pack_size": 400,
+          "buy_label": "1 × 400 g",
           "pantry": false
         },
         {
-          "id": "tomato_paste",
-          "de": "Tomatenmark",
-          "en": "Tomato paste",
-          "need": 45,
+          "id": "white_beans_canned",
+          "de": "Weiße Bohnen (Dose)",
+          "en": "White beans, canned",
+          "need": 620,
           "unit": "g",
-          "packs": 1,
-          "pack_size": 200,
-          "buy_label": "1 × 200 g",
-          "pantry": false
+          "packs": 3,
+          "pack_size": 265,
+          "buy_label": "3 × 265 g",
+          "pantry": false,
+          "note": "Drained weight."
         }
       ]
     },
@@ -474,10 +501,10 @@
       "aisle": "Dry goods",
       "items": [
         {
-          "id": "oats",
-          "de": "Haferflocken zart",
-          "en": "Rolled oats",
-          "need": 60,
+          "id": "pearl_barley",
+          "de": "Perlgraupen",
+          "en": "Pearl barley, dry",
+          "need": 120,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
@@ -485,21 +512,10 @@
           "pantry": false
         },
         {
-          "id": "peanut_butter",
-          "de": "Erdnussmus",
-          "en": "Peanut butter, unsweetened",
-          "need": 60,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 350,
-          "buy_label": "1 × 350 g",
-          "pantry": false
-        },
-        {
-          "id": "wholewheat_pasta",
-          "de": "Vollkorn-Fusilli",
-          "en": "Wholewheat fusilli, dry",
-          "need": 400,
+          "id": "quinoa",
+          "de": "Quinoa",
+          "en": "Quinoa, dry",
+          "need": 210,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
@@ -512,43 +528,21 @@
       "aisle": "Pantry staples",
       "items": [
         {
-          "id": "chili_flakes",
-          "de": "Chiliflocken",
-          "en": "Chilli flakes",
-          "need": 5,
+          "id": "cumin",
+          "de": "Kreuzkümmel gemahlen",
+          "en": "Ground cumin",
+          "need": 6,
           "unit": "g",
           "packs": 1,
-          "pack_size": 30,
-          "buy_label": "1 × 30 g",
+          "pack_size": 40,
+          "buy_label": "1 × 40 g",
           "pantry": true
         },
         {
-          "id": "olive_oil",
-          "de": "Olivenöl",
-          "en": "Olive oil",
-          "need": 36,
-          "unit": "ml",
-          "packs": 1,
-          "pack_size": 500,
-          "buy_label": "1 × 500 ml",
-          "pantry": true
-        },
-        {
-          "id": "oregano",
-          "de": "Oregano getrocknet",
-          "en": "Dried oregano",
-          "need": 9,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 20,
-          "buy_label": "1 × 20 g",
-          "pantry": true
-        },
-        {
-          "id": "salt_pepper",
-          "de": "Salz & Pfeffer",
-          "en": "Salt & pepper",
-          "need": 3,
+          "id": "harissa",
+          "de": "Harissa Paste",
+          "en": "Harissa paste",
+          "need": 45,
           "unit": "g",
           "packs": 1,
           "pack_size": 100,
@@ -556,25 +550,47 @@
           "pantry": true
         },
         {
-          "id": "sesame_oil",
-          "de": "Sesamöl",
-          "en": "Toasted sesame oil",
-          "need": 12,
+          "id": "olive_oil",
+          "de": "Olivenöl",
+          "en": "Olive oil",
+          "need": 46,
           "unit": "ml",
           "packs": 1,
-          "pack_size": 250,
-          "buy_label": "1 × 250 ml",
+          "pack_size": 500,
+          "buy_label": "1 × 500 ml",
           "pantry": true
         },
         {
-          "id": "soy_sauce",
-          "de": "Sojasauce",
-          "en": "Soy sauce",
-          "need": 40,
-          "unit": "ml",
+          "id": "paprika_powder",
+          "de": "Paprikapulver edelsüß",
+          "en": "Sweet paprika",
+          "need": 6,
+          "unit": "g",
           "packs": 1,
-          "pack_size": 250,
-          "buy_label": "1 × 250 ml",
+          "pack_size": 50,
+          "buy_label": "1 × 50 g",
+          "pantry": true
+        },
+        {
+          "id": "salt_pepper",
+          "de": "Salz & Pfeffer",
+          "en": "Salt & pepper",
+          "need": 5,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 100,
+          "buy_label": "1 × 100 g",
+          "pantry": true
+        },
+        {
+          "id": "stock_cube",
+          "de": "Gemüsebrühe (Würfel)",
+          "en": "Vegetable stock cubes",
+          "need": 8,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 66,
+          "buy_label": "1 × 66 g",
           "pantry": true
         }
       ]
@@ -583,123 +599,123 @@
   "timeline": [
     {
       "lane": "A",
-      "track": "oven",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "track": "stovetop",
+      "recipe_id": "pollock-white-bean-stew",
+      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
       "at": 0,
-      "minutes": 12,
+      "minutes": 32,
       "step": 1,
-      "text": "Oven to 200 °C fan. Blitz or crush the oats to a coarse meal and mix into the turkey mince with half the grated onion, half the garlic, oregano, salt and pepper. Roll into 4 cm balls."
+      "text": "Simmer the pearl barley in salted water 30 minutes until tender with a slight chew. Drain."
     },
     {
       "lane": "B",
-      "track": "stovetop",
-      "recipe_id": "peanut-tofu-noodles",
-      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "track": "oven",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
       "at": 0,
-      "minutes": 12,
+      "minutes": 8,
       "step": 1,
-      "text": "Boil the wholewheat pasta one minute short of the packet time. Drop the broccoli and edamame in for the last 3 minutes. Save a mug of the cooking water, then drain and rinse under cold water to stop the cooking."
+      "text": "Oven to 210 °C fan. Rub the chicken with the harissa, half the oil, cumin, garlic and salt."
     },
     {
       "lane": "B",
-      "track": "stovetop",
-      "recipe_id": "peanut-tofu-noodles",
-      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
-      "at": 2,
-      "minutes": 10,
-      "step": 2,
-      "text": "Cube the smoked tofu and fry it in the olive oil until crisp on at least three sides — 8 minutes, don't rush it."
-    },
-    {
-      "lane": "A",
       "track": "oven",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
-      "at": 12,
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "at": 4,
       "minutes": 18,
       "step": 2,
-      "text": "Roast the meatballs on a lined tray for 18 minutes. No frying, no turning."
+      "text": "Rinse the quinoa — skipping this leaves it bitter — then simmer 15 minutes in salted water and drain well."
     },
     {
       "lane": "A",
-      "track": "oven",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
-      "at": 12,
-      "minutes": 6,
-      "step": 3,
-      "text": "Meanwhile sweat the remaining onion in the olive oil, add the garlic and chilli, then the tomato paste for 2 minutes."
+      "track": "stovetop",
+      "recipe_id": "pollock-white-bean-stew",
+      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
+      "at": 5,
+      "minutes": 10,
+      "step": 2,
+      "text": "Sweat the diced onion, fennel, carrot and pepper in the olive oil for 10 minutes — soft, not coloured."
     },
     {
       "lane": "B",
-      "track": "stovetop",
-      "recipe_id": "peanut-tofu-noodles",
-      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
-      "at": 12,
+      "track": "oven",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "at": 8,
       "minutes": 5,
       "step": 3,
-      "text": "Whisk the peanut butter, soy sauce, lime juice, grated garlic and ginger, sesame oil and chilli with 60 ml of the pasta water per portion until it pours like cream."
+      "text": "Toss the courgette, pepper and red onion in the rest of the oil on a large tray. Give them room; a crowded tray steams."
     },
     {
       "lane": "B",
+      "track": "oven",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "at": 13,
+      "minutes": 22,
+      "step": 4,
+      "text": "Slide the chicken onto the same tray and roast 22 minutes, until the chicken hits 72 °C and the vegetable edges catch."
+    },
+    {
+      "lane": "A",
       "track": "stovetop",
-      "recipe_id": "peanut-tofu-noodles",
-      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
-      "at": 17,
+      "recipe_id": "pollock-white-bean-stew",
+      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
+      "at": 15,
+      "minutes": 13,
+      "step": 3,
+      "text": "Add garlic and sweet paprika for a minute, then the chopped tomatoes, crumbled stock cube and 150 ml water per portion. Simmer 12 minutes."
+    },
+    {
+      "lane": "B",
+      "track": "oven",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "at": 22,
       "minutes": 4,
-      "step": 4,
-      "text": "Julienne the carrot raw — it keeps its bite all week where cooked carrot goes soft."
-    },
-    {
-      "lane": "A",
-      "track": "oven",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
-      "at": 18,
-      "minutes": 15,
-      "step": 4,
-      "text": "Add the passata and 80 ml water per portion. Simmer 15 minutes until it darkens and thickens."
-    },
-    {
-      "lane": "A",
-      "track": "oven",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
-      "at": 20,
-      "minutes": 12,
       "step": 5,
-      "text": "Boil the fusilli one minute short of the packet time — it softens further on reheating. Add the peas for the final 2 minutes. Drain."
+      "text": "Fold the drained white beans and lemon juice through the warm quinoa."
+    },
+    {
+      "lane": "A",
+      "track": "stovetop",
+      "recipe_id": "pollock-white-bean-stew",
+      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
+      "at": 28,
+      "minutes": 8,
+      "step": 4,
+      "text": "Stir in the drained white beans. Lay the thawed pollock on top in large pieces, cover, and poach 6–7 minutes. Don't stir — you want flakes, not shreds."
     },
     {
       "lane": "B",
-      "track": "stovetop",
-      "recipe_id": "peanut-tofu-noodles",
-      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
-      "at": 21,
+      "track": "oven",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "at": 35,
       "minutes": 5,
-      "step": 5,
-      "text": "Toss everything together while the noodles are still cool. Loosen with more pasta water if it tightens."
-    },
-    {
-      "lane": "B",
-      "track": "stovetop",
-      "recipe_id": "peanut-tofu-noodles",
-      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
-      "at": 26,
-      "minutes": 4,
       "step": 6,
-      "text": "Box straight away. This one needs no cooling time."
+      "text": "Rest and slice the chicken. Box quinoa, vegetables, chicken. Skyr in a separate pot, thinned with lemon and salt."
     },
     {
       "lane": "A",
-      "track": "oven",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
-      "at": 33,
-      "minutes": 12,
+      "track": "stovetop",
+      "recipe_id": "pollock-white-bean-stew",
+      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
+      "at": 36,
+      "minutes": 2,
+      "step": 5,
+      "text": "Break the fish into big pieces through the stew. Finish with lemon juice and chopped parsley."
+    },
+    {
+      "lane": "A",
+      "track": "stovetop",
+      "recipe_id": "pollock-white-bean-stew",
+      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
+      "at": 38,
+      "minutes": 7,
       "step": 6,
-      "text": "Fold the meatballs through the sauce off the heat. Box pasta, then meatballs and sauce, parmesan over the top."
+      "text": "Cool uncovered, then box the barley with the stew ladled over."
     }
   ]
 }

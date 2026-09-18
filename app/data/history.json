@@ -27,5 +27,12 @@
       "turkey-meatballs-fusilli",
       "peanut-tofu-noodles"
     ]
+  },
+  {
+    "week_id": "2026-W39",
+    "recipe_ids": [
+      "pollock-white-bean-stew",
+      "harissa-chicken-quinoa"
+    ]
   }
 ]
