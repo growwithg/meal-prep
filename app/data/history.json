@@ -34,5 +34,12 @@
       "pollock-white-bean-stew",
       "harissa-chicken-quinoa"
     ]
+  },
+  {
+    "week_id": "2026-W40",
+    "recipe_ids": [
+      "greek-chicken-bulgur",
+      "beef-black-bean-bowl"
+    ]
   }
 ]

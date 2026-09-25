@@ -1,11 +1,11 @@
 window.__PLAN__ = {
-  "week_id": "2026-W39",
-  "generated_at": "2026-09-18T10:55:29",
+  "week_id": "2026-W40",
+  "generated_at": "2026-09-25T11:30:24",
   "dates": {
-    "shop_by": "2026-09-19",
-    "cook_on": "2026-09-20",
-    "week_start": "2026-09-21",
-    "week_end": "2026-09-25"
+    "shop_by": "2026-09-26",
+    "cook_on": "2026-09-27",
+    "week_start": "2026-09-28",
+    "week_end": "2026-10-02"
   },
   "targets": {
     "protein_per_day": 170,
@@ -13,173 +13,39 @@ window.__PLAN__ = {
     "lunch_max": 85
   },
   "summary": {
-    "cook_minutes": 45,
+    "cook_minutes": 40,
     "portions": 5,
-    "protein_low": 66.3,
-    "protein_high": 75.5,
-    "protein_avg": 71.8,
+    "protein_low": 66.9,
+    "protein_high": 81.5,
+    "protein_avg": 75.7,
     "in_target": true
   },
   "meals": [
     {
       "label": "A",
-      "portions": 2,
-      "id": "pollock-white-bean-stew",
-      "name": "Alaska Pollock & White Bean Stew with Barley",
-      "track": "stovetop",
-      "protein_source": "fish",
-      "active_min": 20,
-      "total_min": 45,
-      "reheat": "Microwave 2:00 at 600 W. Low power — high power turns the fish rubbery.",
-      "cold_ok": false,
-      "macros": {
-        "protein": 66.3,
-        "carbs": 83.1,
-        "fiber": 24.8,
-        "fat": 14.3,
-        "kcal": 772.5
-      },
-      "steps": [
-        "Simmer the pearl barley in salted water 30 minutes until tender with a slight chew. Drain.",
-        "Sweat the diced onion, fennel, carrot and pepper in the olive oil for 10 minutes — soft, not coloured.",
-        "Add garlic and sweet paprika for a minute, then the chopped tomatoes, crumbled stock cube and 150 ml water per portion. Simmer 12 minutes.",
-        "Stir in the drained white beans. Lay the thawed pollock on top in large pieces, cover, and poach 6–7 minutes. Don't stir — you want flakes, not shreds.",
-        "Break the fish into big pieces through the stew. Finish with lemon juice and chopped parsley.",
-        "Cool uncovered, then box the barley with the stew ladled over."
-      ],
-      "ingredients": [
-        {
-          "de": "Alaska-Seelachsfilet (MSC, TK)",
-          "en": "Alaska pollock fillet",
-          "per_portion": 250,
-          "total": 500,
-          "unit": "g"
-        },
-        {
-          "de": "Weiße Bohnen (Dose)",
-          "en": "White beans, canned",
-          "per_portion": 130,
-          "total": 260,
-          "unit": "g"
-        },
-        {
-          "de": "Perlgraupen",
-          "en": "Pearl barley, dry",
-          "per_portion": 60,
-          "total": 120,
-          "unit": "g"
-        },
-        {
-          "de": "Stückige Tomaten (Dose)",
-          "en": "Chopped tomatoes",
-          "per_portion": 150,
-          "total": 300,
-          "unit": "g"
-        },
-        {
-          "de": "Paprika rot",
-          "en": "Red bell pepper",
-          "per_portion": 80,
-          "total": 160,
-          "unit": "g"
-        },
-        {
-          "de": "Fenchel",
-          "en": "Fennel bulb",
-          "per_portion": 80,
-          "total": 160,
-          "unit": "g"
-        },
-        {
-          "de": "Zwiebeln",
-          "en": "Onions",
-          "per_portion": 60,
-          "total": 120,
-          "unit": "g"
-        },
-        {
-          "de": "Karotten",
-          "en": "Carrots",
-          "per_portion": 60,
-          "total": 120,
-          "unit": "g"
-        },
-        {
-          "de": "Knoblauch",
-          "en": "Garlic",
-          "per_portion": 8,
-          "total": 16,
-          "unit": "g"
-        },
-        {
-          "de": "Olivenöl",
-          "en": "Olive oil",
-          "per_portion": 8,
-          "total": 16,
-          "unit": "ml"
-        },
-        {
-          "de": "Paprikapulver edelsüß",
-          "en": "Sweet paprika",
-          "per_portion": 3,
-          "total": 6,
-          "unit": "g"
-        },
-        {
-          "de": "Zitronen",
-          "en": "Lemons",
-          "per_portion": 25,
-          "total": 50,
-          "unit": "g"
-        },
-        {
-          "de": "Petersilie (Bund)",
-          "en": "Flat-leaf parsley",
-          "per_portion": 5,
-          "total": 10,
-          "unit": "g"
-        },
-        {
-          "de": "Gemüsebrühe (Würfel)",
-          "en": "Vegetable stock cubes",
-          "per_portion": 4,
-          "total": 8,
-          "unit": "g"
-        },
-        {
-          "de": "Salz & Pfeffer",
-          "en": "Salt & pepper",
-          "per_portion": 1,
-          "total": 2,
-          "unit": "g"
-        }
-      ]
-    },
-    {
-      "label": "B",
       "portions": 3,
-      "id": "harissa-chicken-quinoa",
-      "name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "id": "greek-chicken-bulgur",
+      "name": "Greek Chicken & Bulgur Bowl with Tzatziki",
       "track": "oven",
       "protein_source": "chicken",
-      "active_min": 15,
+      "active_min": 20,
       "total_min": 40,
-      "reheat": "Microwave 2:15 at 800 W. Skyr goes on afterwards.",
+      "reheat": "Microwave 2:15 at 800 W. Tzatziki and cucumber stay out — add them cold.",
       "cold_ok": true,
       "macros": {
-        "protein": 75.5,
-        "carbs": 73.1,
-        "fiber": 18.1,
-        "fat": 19.2,
-        "kcal": 810.2
+        "protein": 81.5,
+        "carbs": 76.8,
+        "fiber": 20.8,
+        "fat": 22.9,
+        "kcal": 888.0
       },
       "steps": [
-        "Oven to 210 °C fan. Rub the chicken with the harissa, half the oil, cumin, garlic and salt.",
-        "Rinse the quinoa — skipping this leaves it bitter — then simmer 15 minutes in salted water and drain well.",
-        "Toss the courgette, pepper and red onion in the rest of the oil on a large tray. Give them room; a crowded tray steams.",
-        "Slide the chicken onto the same tray and roast 22 minutes, until the chicken hits 72 °C and the vegetable edges catch.",
-        "Fold the drained white beans and lemon juice through the warm quinoa.",
-        "Rest and slice the chicken. Box quinoa, vegetables, chicken. Skyr in a separate pot, thinned with lemon and salt."
+        "Oven to 210 °C fan. Marinate the chicken in half the olive oil, oregano, half the garlic, lemon zest, salt and pepper — 15 minutes is enough.",
+        "Pour boiling salted water over the bulgur at 2:1 by volume, cover, stand 15 minutes, fork through.",
+        "Roast the chicken with the sliced pepper and red onion for 20 minutes, until 72 °C in the thickest part. Rest 5 minutes, then slice across the grain.",
+        "Grate the cucumber, squeeze out the water properly with your hands, and mix with the skyr, remaining grated garlic, lemon juice and salt.",
+        "Fold the drained chickpeas and remaining oil through the warm bulgur.",
+        "Box bulgur, then chicken and vegetables, crumbled feta on top. Tzatziki in a separate container — mixed in on Sunday it turns the bulgur to paste by Tuesday."
       ],
       "ingredients": [
         {
@@ -190,22 +56,29 @@ window.__PLAN__ = {
           "unit": "g"
         },
         {
-          "de": "Quinoa",
-          "en": "Quinoa, dry",
+          "de": "Bulgur",
+          "en": "Bulgur, dry",
           "per_portion": 70,
           "total": 210,
           "unit": "g"
         },
         {
-          "de": "Weiße Bohnen (Dose)",
-          "en": "White beans, canned",
+          "de": "Kichererbsen (Dose)",
+          "en": "Chickpeas, canned",
           "per_portion": 120,
           "total": 360,
           "unit": "g"
         },
         {
-          "de": "Zucchini",
-          "en": "Courgette",
+          "de": "Salatgurke",
+          "en": "Cucumber",
+          "per_portion": 80,
+          "total": 240,
+          "unit": "g"
+        },
+        {
+          "de": "Skyr Natur",
+          "en": "Skyr, plain",
           "per_portion": 100,
           "total": 300,
           "unit": "g"
@@ -220,22 +93,15 @@ window.__PLAN__ = {
         {
           "de": "Rote Zwiebeln",
           "en": "Red onions",
-          "per_portion": 50,
-          "total": 150,
+          "per_portion": 40,
+          "total": 120,
           "unit": "g"
         },
         {
-          "de": "Skyr Natur",
-          "en": "Skyr, plain",
-          "per_portion": 60,
-          "total": 180,
-          "unit": "g"
-        },
-        {
-          "de": "Harissa Paste",
-          "en": "Harissa paste",
-          "per_portion": 15,
-          "total": 45,
+          "de": "Feta",
+          "en": "Feta",
+          "per_portion": 25,
+          "total": 75,
           "unit": "g"
         },
         {
@@ -260,10 +126,10 @@ window.__PLAN__ = {
           "unit": "ml"
         },
         {
-          "de": "Kreuzkümmel gemahlen",
-          "en": "Ground cumin",
-          "per_portion": 2,
-          "total": 6,
+          "de": "Oregano getrocknet",
+          "en": "Dried oregano",
+          "per_portion": 3,
+          "total": 9,
           "unit": "g"
         },
         {
@@ -274,41 +140,168 @@ window.__PLAN__ = {
           "unit": "g"
         }
       ]
+    },
+    {
+      "label": "B",
+      "portions": 2,
+      "id": "beef-black-bean-bowl",
+      "name": "Beef & Black Bean Burrito Bowl",
+      "track": "stovetop",
+      "protein_source": "beef",
+      "active_min": 20,
+      "total_min": 40,
+      "reheat": "Microwave 2:45 at 800 W.",
+      "cold_ok": false,
+      "macros": {
+        "protein": 66.9,
+        "carbs": 93.9,
+        "fiber": 19.2,
+        "fat": 34.2,
+        "kcal": 985.8
+      },
+      "steps": [
+        "Get the wholegrain rice going — 25 minutes covered, 5 minutes resting off the heat.",
+        "Brown the beef mince hard in the olive oil. Leave it alone until a crust forms, then break it up.",
+        "Add onion and pepper for 6 minutes, then garlic, cumin and smoked paprika for one.",
+        "Pour in the passata plus 60 ml water per portion, add the drained beans and corn, and simmer 12 minutes until thick.",
+        "Finish off the heat with lime juice and a heavy hand of salt.",
+        "Box rice first, beef mixture on top, grated gouda over the hot mixture so it melts in."
+      ],
+      "ingredients": [
+        {
+          "de": "Rinderhackfleisch (mager)",
+          "en": "Lean beef mince",
+          "per_portion": 180,
+          "total": 360,
+          "unit": "g"
+        },
+        {
+          "de": "Schwarze Bohnen (Dose)",
+          "en": "Black beans, canned",
+          "per_portion": 120,
+          "total": 240,
+          "unit": "g"
+        },
+        {
+          "de": "Mais (Dose)",
+          "en": "Sweetcorn, canned",
+          "per_portion": 60,
+          "total": 120,
+          "unit": "g"
+        },
+        {
+          "de": "Paprika rot",
+          "en": "Red bell pepper",
+          "per_portion": 80,
+          "total": 160,
+          "unit": "g"
+        },
+        {
+          "de": "Passierte Tomaten",
+          "en": "Passata",
+          "per_portion": 120,
+          "total": 240,
+          "unit": "g"
+        },
+        {
+          "de": "Vollkorn-Basmatireis",
+          "en": "Wholegrain basmati, dry",
+          "per_portion": 70,
+          "total": 140,
+          "unit": "g"
+        },
+        {
+          "de": "Gouda gerieben",
+          "en": "Grated gouda",
+          "per_portion": 30,
+          "total": 60,
+          "unit": "g"
+        },
+        {
+          "de": "Zwiebeln",
+          "en": "Onions",
+          "per_portion": 50,
+          "total": 100,
+          "unit": "g"
+        },
+        {
+          "de": "Knoblauch",
+          "en": "Garlic",
+          "per_portion": 8,
+          "total": 16,
+          "unit": "g"
+        },
+        {
+          "de": "Olivenöl",
+          "en": "Olive oil",
+          "per_portion": 8,
+          "total": 16,
+          "unit": "ml"
+        },
+        {
+          "de": "Kreuzkümmel gemahlen",
+          "en": "Ground cumin",
+          "per_portion": 3,
+          "total": 6,
+          "unit": "g"
+        },
+        {
+          "de": "Paprikapulver geräuchert",
+          "en": "Smoked paprika",
+          "per_portion": 2,
+          "total": 4,
+          "unit": "g"
+        },
+        {
+          "de": "Limetten",
+          "en": "Limes",
+          "per_portion": 15,
+          "total": 30,
+          "unit": "g"
+        },
+        {
+          "de": "Salz & Pfeffer",
+          "en": "Salt & pepper",
+          "per_portion": 1,
+          "total": 2,
+          "unit": "g"
+        }
+      ]
     }
   ],
   "schedule": [
     {
       "day": "Monday",
-      "recipe_id": "pollock-white-bean-stew",
-      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
+      "recipe_id": "greek-chicken-bulgur",
+      "recipe_name": "Greek Chicken & Bulgur Bowl with Tzatziki",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Tuesday",
-      "recipe_id": "pollock-white-bean-stew",
-      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
+      "recipe_id": "greek-chicken-bulgur",
+      "recipe_name": "Greek Chicken & Bulgur Bowl with Tzatziki",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Wednesday",
-      "recipe_id": "harissa-chicken-quinoa",
-      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "recipe_id": "greek-chicken-bulgur",
+      "recipe_name": "Greek Chicken & Bulgur Bowl with Tzatziki",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Thursday",
-      "recipe_id": "harissa-chicken-quinoa",
-      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "recipe_id": "beef-black-bean-bowl",
+      "recipe_name": "Beef & Black Bean Burrito Bowl",
       "storage": "freezer",
       "note": "Freeze Sunday. Move to the fridge on Wednesday evening."
     },
     {
       "day": "Friday",
-      "recipe_id": "harissa-chicken-quinoa",
-      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "recipe_id": "beef-black-bean-bowl",
+      "recipe_name": "Beef & Black Bean Burrito Bowl",
       "storage": "freezer",
       "note": "Freeze Sunday. Move to the fridge on Wednesday evening."
     }
@@ -330,26 +323,16 @@ window.__PLAN__ = {
           "note": "About 3 peppers to a 500 g pack."
         },
         {
-          "id": "carrot",
-          "de": "Karotten",
-          "en": "Carrots",
-          "need": 120,
+          "id": "cucumber",
+          "de": "Salatgurke",
+          "en": "Cucumber",
+          "need": 240,
           "unit": "g",
           "packs": 1,
-          "pack_size": 1000,
-          "buy_label": "1 × 1000 g",
-          "pantry": false
-        },
-        {
-          "id": "fennel",
-          "de": "Fenchel",
-          "en": "Fennel bulb",
-          "need": 160,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 300,
-          "buy_label": "1 × 300 g",
-          "pantry": false
+          "pack_size": 400,
+          "buy_label": "1 × 400 g",
+          "pantry": false,
+          "note": "One cucumber is roughly 400 g."
         },
         {
           "id": "garlic",
@@ -367,56 +350,46 @@ window.__PLAN__ = {
           "id": "lemon",
           "de": "Zitronen",
           "en": "Lemons",
-          "need": 125,
+          "need": 75,
           "unit": "g",
-          "packs": 2,
+          "packs": 1,
           "pack_size": 100,
-          "buy_label": "2 × 100 g",
+          "buy_label": "1 × 100 g",
           "pantry": false,
           "note": "One lemon is roughly 100 g."
+        },
+        {
+          "id": "lime",
+          "de": "Limetten",
+          "en": "Limes",
+          "need": 30,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 70,
+          "buy_label": "1 × 70 g",
+          "pantry": false,
+          "note": "One lime is roughly 70 g."
         },
         {
           "id": "onion",
           "de": "Zwiebeln",
           "en": "Onions",
-          "need": 120,
+          "need": 100,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
           "buy_label": "1 × 500 g",
-          "pantry": false
-        },
-        {
-          "id": "parsley",
-          "de": "Petersilie (Bund)",
-          "en": "Flat-leaf parsley",
-          "need": 10,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 20,
-          "buy_label": "1 × 20 g",
           "pantry": false
         },
         {
           "id": "red_onion",
           "de": "Rote Zwiebeln",
           "en": "Red onions",
-          "need": 150,
+          "need": 120,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
           "buy_label": "1 × 500 g",
-          "pantry": false
-        },
-        {
-          "id": "zucchini",
-          "de": "Zucchini",
-          "en": "Courgette",
-          "need": 300,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 400,
-          "buy_label": "1 × 400 g",
           "pantry": false
         }
       ]
@@ -424,6 +397,17 @@ window.__PLAN__ = {
     {
       "aisle": "Fresh meat & fish",
       "items": [
+        {
+          "id": "beef_mince_lean",
+          "de": "Rinderhackfleisch (mager)",
+          "en": "Lean beef mince",
+          "need": 360,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 500,
+          "buy_label": "1 × 500 g",
+          "pantry": false
+        },
         {
           "id": "chicken_breast",
           "de": "Hähnchenbrustfilet",
@@ -441,10 +425,32 @@ window.__PLAN__ = {
       "aisle": "Chilled & dairy",
       "items": [
         {
+          "id": "feta",
+          "de": "Feta",
+          "en": "Feta",
+          "need": 75,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 200,
+          "buy_label": "1 × 200 g",
+          "pantry": false
+        },
+        {
+          "id": "gouda_grated",
+          "de": "Gouda gerieben",
+          "en": "Grated gouda",
+          "need": 60,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 200,
+          "buy_label": "1 × 200 g",
+          "pantry": false
+        },
+        {
           "id": "skyr",
           "de": "Skyr Natur",
           "en": "Skyr, plain",
-          "need": 180,
+          "need": 300,
           "unit": "g",
           "packs": 1,
           "pack_size": 450,
@@ -454,46 +460,54 @@ window.__PLAN__ = {
       ]
     },
     {
-      "aisle": "Frozen",
-      "items": [
-        {
-          "id": "pollock",
-          "de": "Alaska-Seelachsfilet (MSC, TK)",
-          "en": "Alaska pollock fillet",
-          "need": 500,
-          "unit": "g",
-          "packs": 2,
-          "pack_size": 400,
-          "buy_label": "2 × 400 g",
-          "pantry": false
-        }
-      ]
-    },
-    {
       "aisle": "Cans & jars",
       "items": [
         {
-          "id": "chopped_tomatoes",
-          "de": "Stückige Tomaten (Dose)",
-          "en": "Chopped tomatoes",
-          "need": 300,
+          "id": "black_beans_canned",
+          "de": "Schwarze Bohnen (Dose)",
+          "en": "Black beans, canned",
+          "need": 240,
           "unit": "g",
           "packs": 1,
-          "pack_size": 400,
-          "buy_label": "1 × 400 g",
-          "pantry": false
-        },
-        {
-          "id": "white_beans_canned",
-          "de": "Weiße Bohnen (Dose)",
-          "en": "White beans, canned",
-          "need": 620,
-          "unit": "g",
-          "packs": 3,
           "pack_size": 265,
-          "buy_label": "3 × 265 g",
+          "buy_label": "1 × 265 g",
           "pantry": false,
           "note": "Drained weight."
+        },
+        {
+          "id": "chickpeas_canned",
+          "de": "Kichererbsen (Dose)",
+          "en": "Chickpeas, canned",
+          "need": 360,
+          "unit": "g",
+          "packs": 2,
+          "pack_size": 265,
+          "buy_label": "2 × 265 g",
+          "pantry": false,
+          "note": "Drained weight; a 400 g can drains to about 265 g."
+        },
+        {
+          "id": "corn_canned",
+          "de": "Mais (Dose)",
+          "en": "Sweetcorn, canned",
+          "need": 120,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 285,
+          "buy_label": "1 × 285 g",
+          "pantry": false,
+          "note": "Drained weight."
+        },
+        {
+          "id": "passata",
+          "de": "Passierte Tomaten",
+          "en": "Passata",
+          "need": 240,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 500,
+          "buy_label": "1 × 500 g",
+          "pantry": false
         }
       ]
     },
@@ -501,10 +515,10 @@ window.__PLAN__ = {
       "aisle": "Dry goods",
       "items": [
         {
-          "id": "pearl_barley",
-          "de": "Perlgraupen",
-          "en": "Pearl barley, dry",
-          "need": 120,
+          "id": "brown_rice",
+          "de": "Vollkorn-Basmatireis",
+          "en": "Wholegrain basmati, dry",
+          "need": 140,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
@@ -512,9 +526,9 @@ window.__PLAN__ = {
           "pantry": false
         },
         {
-          "id": "quinoa",
-          "de": "Quinoa",
-          "en": "Quinoa, dry",
+          "id": "bulgur",
+          "de": "Bulgur",
+          "en": "Bulgur, dry",
           "need": 210,
           "unit": "g",
           "packs": 1,
@@ -539,17 +553,6 @@ window.__PLAN__ = {
           "pantry": true
         },
         {
-          "id": "harissa",
-          "de": "Harissa Paste",
-          "en": "Harissa paste",
-          "need": 45,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 100,
-          "buy_label": "1 × 100 g",
-          "pantry": true
-        },
-        {
           "id": "olive_oil",
           "de": "Olivenöl",
           "en": "Olive oil",
@@ -561,14 +564,14 @@ window.__PLAN__ = {
           "pantry": true
         },
         {
-          "id": "paprika_powder",
-          "de": "Paprikapulver edelsüß",
-          "en": "Sweet paprika",
-          "need": 6,
+          "id": "oregano",
+          "de": "Oregano getrocknet",
+          "en": "Dried oregano",
+          "need": 9,
           "unit": "g",
           "packs": 1,
-          "pack_size": 50,
-          "buy_label": "1 × 50 g",
+          "pack_size": 20,
+          "buy_label": "1 × 20 g",
           "pantry": true
         },
         {
@@ -583,14 +586,14 @@ window.__PLAN__ = {
           "pantry": true
         },
         {
-          "id": "stock_cube",
-          "de": "Gemüsebrühe (Würfel)",
-          "en": "Vegetable stock cubes",
-          "need": 8,
+          "id": "smoked_paprika",
+          "de": "Paprikapulver geräuchert",
+          "en": "Smoked paprika",
+          "need": 4,
           "unit": "g",
           "packs": 1,
-          "pack_size": 66,
-          "buy_label": "1 × 66 g",
+          "pack_size": 50,
+          "buy_label": "1 × 50 g",
           "pantry": true
         }
       ]
@@ -599,123 +602,123 @@ window.__PLAN__ = {
   "timeline": [
     {
       "lane": "A",
+      "track": "oven",
+      "recipe_id": "greek-chicken-bulgur",
+      "recipe_name": "Greek Chicken & Bulgur Bowl with Tzatziki",
+      "at": 0,
+      "minutes": 15,
+      "step": 1,
+      "text": "Oven to 210 °C fan. Marinate the chicken in half the olive oil, oregano, half the garlic, lemon zest, salt and pepper — 15 minutes is enough."
+    },
+    {
+      "lane": "B",
       "track": "stovetop",
-      "recipe_id": "pollock-white-bean-stew",
-      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
+      "recipe_id": "beef-black-bean-bowl",
+      "recipe_name": "Beef & Black Bean Burrito Bowl",
       "at": 0,
-      "minutes": 32,
+      "minutes": 30,
       "step": 1,
-      "text": "Simmer the pearl barley in salted water 30 minutes until tender with a slight chew. Drain."
+      "text": "Get the wholegrain rice going — 25 minutes covered, 5 minutes resting off the heat."
     },
     {
       "lane": "B",
-      "track": "oven",
-      "recipe_id": "harissa-chicken-quinoa",
-      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
-      "at": 0,
-      "minutes": 8,
-      "step": 1,
-      "text": "Oven to 210 °C fan. Rub the chicken with the harissa, half the oil, cumin, garlic and salt."
-    },
-    {
-      "lane": "B",
-      "track": "oven",
-      "recipe_id": "harissa-chicken-quinoa",
-      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
-      "at": 4,
-      "minutes": 18,
+      "track": "stovetop",
+      "recipe_id": "beef-black-bean-bowl",
+      "recipe_name": "Beef & Black Bean Burrito Bowl",
+      "at": 3,
+      "minutes": 7,
       "step": 2,
-      "text": "Rinse the quinoa — skipping this leaves it bitter — then simmer 15 minutes in salted water and drain well."
+      "text": "Brown the beef mince hard in the olive oil. Leave it alone until a crust forms, then break it up."
     },
     {
       "lane": "A",
-      "track": "stovetop",
-      "recipe_id": "pollock-white-bean-stew",
-      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
+      "track": "oven",
+      "recipe_id": "greek-chicken-bulgur",
+      "recipe_name": "Greek Chicken & Bulgur Bowl with Tzatziki",
       "at": 5,
-      "minutes": 10,
+      "minutes": 15,
       "step": 2,
-      "text": "Sweat the diced onion, fennel, carrot and pepper in the olive oil for 10 minutes — soft, not coloured."
+      "text": "Pour boiling salted water over the bulgur at 2:1 by volume, cover, stand 15 minutes, fork through."
     },
     {
       "lane": "B",
-      "track": "oven",
-      "recipe_id": "harissa-chicken-quinoa",
-      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
-      "at": 8,
-      "minutes": 5,
+      "track": "stovetop",
+      "recipe_id": "beef-black-bean-bowl",
+      "recipe_name": "Beef & Black Bean Burrito Bowl",
+      "at": 10,
+      "minutes": 7,
       "step": 3,
-      "text": "Toss the courgette, pepper and red onion in the rest of the oil on a large tray. Give them room; a crowded tray steams."
-    },
-    {
-      "lane": "B",
-      "track": "oven",
-      "recipe_id": "harissa-chicken-quinoa",
-      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
-      "at": 13,
-      "minutes": 22,
-      "step": 4,
-      "text": "Slide the chicken onto the same tray and roast 22 minutes, until the chicken hits 72 °C and the vegetable edges catch."
+      "text": "Add onion and pepper for 6 minutes, then garlic, cumin and smoked paprika for one."
     },
     {
       "lane": "A",
-      "track": "stovetop",
-      "recipe_id": "pollock-white-bean-stew",
-      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
-      "at": 15,
-      "minutes": 13,
+      "track": "oven",
+      "recipe_id": "greek-chicken-bulgur",
+      "recipe_name": "Greek Chicken & Bulgur Bowl with Tzatziki",
+      "at": 12,
+      "minutes": 25,
       "step": 3,
-      "text": "Add garlic and sweet paprika for a minute, then the chopped tomatoes, crumbled stock cube and 150 ml water per portion. Simmer 12 minutes."
+      "text": "Roast the chicken with the sliced pepper and red onion for 20 minutes, until 72 °C in the thickest part. Rest 5 minutes, then slice across the grain."
     },
     {
       "lane": "B",
+      "track": "stovetop",
+      "recipe_id": "beef-black-bean-bowl",
+      "recipe_name": "Beef & Black Bean Burrito Bowl",
+      "at": 17,
+      "minutes": 12,
+      "step": 4,
+      "text": "Pour in the passata plus 60 ml water per portion, add the drained beans and corn, and simmer 12 minutes until thick."
+    },
+    {
+      "lane": "A",
       "track": "oven",
-      "recipe_id": "harissa-chicken-quinoa",
-      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
-      "at": 22,
+      "recipe_id": "greek-chicken-bulgur",
+      "recipe_name": "Greek Chicken & Bulgur Bowl with Tzatziki",
+      "at": 20,
+      "minutes": 8,
+      "step": 4,
+      "text": "Grate the cucumber, squeeze out the water properly with your hands, and mix with the skyr, remaining grated garlic, lemon juice and salt."
+    },
+    {
+      "lane": "A",
+      "track": "oven",
+      "recipe_id": "greek-chicken-bulgur",
+      "recipe_name": "Greek Chicken & Bulgur Bowl with Tzatziki",
+      "at": 28,
       "minutes": 4,
       "step": 5,
-      "text": "Fold the drained white beans and lemon juice through the warm quinoa."
-    },
-    {
-      "lane": "A",
-      "track": "stovetop",
-      "recipe_id": "pollock-white-bean-stew",
-      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
-      "at": 28,
-      "minutes": 8,
-      "step": 4,
-      "text": "Stir in the drained white beans. Lay the thawed pollock on top in large pieces, cover, and poach 6–7 minutes. Don't stir — you want flakes, not shreds."
+      "text": "Fold the drained chickpeas and remaining oil through the warm bulgur."
     },
     {
       "lane": "B",
-      "track": "oven",
-      "recipe_id": "harissa-chicken-quinoa",
-      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
-      "at": 35,
-      "minutes": 5,
-      "step": 6,
-      "text": "Rest and slice the chicken. Box quinoa, vegetables, chicken. Skyr in a separate pot, thinned with lemon and salt."
-    },
-    {
-      "lane": "A",
       "track": "stovetop",
-      "recipe_id": "pollock-white-bean-stew",
-      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
-      "at": 36,
+      "recipe_id": "beef-black-bean-bowl",
+      "recipe_name": "Beef & Black Bean Burrito Bowl",
+      "at": 29,
       "minutes": 2,
       "step": 5,
-      "text": "Break the fish into big pieces through the stew. Finish with lemon juice and chopped parsley."
+      "text": "Finish off the heat with lime juice and a heavy hand of salt."
+    },
+    {
+      "lane": "B",
+      "track": "stovetop",
+      "recipe_id": "beef-black-bean-bowl",
+      "recipe_name": "Beef & Black Bean Burrito Bowl",
+      "at": 31,
+      "minutes": 9,
+      "step": 6,
+      "text": "Box rice first, beef mixture on top, grated gouda over the hot mixture so it melts in."
     },
     {
       "lane": "A",
-      "track": "stovetop",
-      "recipe_id": "pollock-white-bean-stew",
-      "recipe_name": "Alaska Pollock & White Bean Stew with Barley",
-      "at": 38,
-      "minutes": 7,
+      "track": "oven",
+      "recipe_id": "greek-chicken-bulgur",
+      "recipe_name": "Greek Chicken & Bulgur Bowl with Tzatziki",
+      "at": 37,
+      "minutes": 3,
       "step": 6,
-      "text": "Cool uncovered, then box the barley with the stew ladled over."
+      "text": "Box bulgur, then chicken and vegetables, crumbled feta on top. Tzatziki in a separate container — mixed in on Sunday it turns the bulgur to paste by Tuesday."
     }
   ]
 };
