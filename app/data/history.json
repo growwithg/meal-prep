@@ -41,5 +41,12 @@
       "greek-chicken-bulgur",
       "beef-black-bean-bowl"
     ]
+  },
+  {
+    "week_id": "2026-W41",
+    "recipe_ids": [
+      "salmon-beluga-lentils",
+      "turkey-chili"
+    ]
   }
 ]
