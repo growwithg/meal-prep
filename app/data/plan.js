@@ -1,11 +1,11 @@
 window.__PLAN__ = {
-  "week_id": "2026-W41",
-  "generated_at": "2026-10-02T12:24:11",
+  "week_id": "2026-W42",
+  "generated_at": "2026-10-09T13:13:19",
   "dates": {
-    "shop_by": "2026-10-03",
-    "cook_on": "2026-10-04",
-    "week_start": "2026-10-05",
-    "week_end": "2026-10-09"
+    "shop_by": "2026-10-10",
+    "cook_on": "2026-10-11",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-16"
   },
   "targets": {
     "protein_per_day": 170,
@@ -15,129 +15,37 @@ window.__PLAN__ = {
   "summary": {
     "cook_minutes": 45,
     "portions": 5,
-    "protein_low": 67.4,
-    "protein_high": 74.9,
-    "protein_avg": 70.4,
+    "protein_low": 70.0,
+    "protein_high": 72.0,
+    "protein_avg": 70.8,
     "in_target": true
   },
   "meals": [
     {
       "label": "A",
-      "portions": 2,
-      "id": "salmon-beluga-lentils",
-      "name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
-      "track": "oven",
-      "protein_source": "fish",
-      "active_min": 15,
-      "total_min": 40,
-      "reheat": "Microwave 1:45 at 600 W — low and slow, or the salmon goes dry and fishy.",
-      "cold_ok": true,
-      "macros": {
-        "protein": 74.9,
-        "carbs": 47.8,
-        "fiber": 16.6,
-        "fat": 26.3,
-        "kcal": 768.0
-      },
-      "steps": [
-        "Oven to 200 °C fan. Simmer the beluga lentils in plenty of salted water for 20 minutes — they should hold their shape, not collapse.",
-        "Toss the broccoli florets in half the olive oil, salt and pepper. Roast 18 minutes on the top shelf until the edges char.",
-        "Pat the thawed salmon dry, oil it, season, and roast 11–12 minutes on a lined tray. Pull it at just-opaque; it carries on cooking as it cools.",
-        "Mix the skyr with grated garlic, chopped dill, lemon zest and juice, salt and pepper. Loosen with a splash of water to a spoonable sauce.",
-        "Drain the lentils, dress them while warm with the remaining oil and a squeeze of lemon — warm lentils absorb dressing, cold ones don't.",
-        "Cool everything before boxing. The skyr sauce goes in a separate small container and gets spooned on at the desk."
-      ],
-      "ingredients": [
-        {
-          "de": "Wildlachsfilet, Alaska (MSC, TK)",
-          "en": "Wild-caught salmon fillet",
-          "per_portion": 200,
-          "total": 400,
-          "unit": "g"
-        },
-        {
-          "de": "Belugalinsen",
-          "en": "Beluga lentils, dry",
-          "per_portion": 80,
-          "total": 160,
-          "unit": "g"
-        },
-        {
-          "de": "Brokkoli",
-          "en": "Broccoli",
-          "per_portion": 150,
-          "total": 300,
-          "unit": "g"
-        },
-        {
-          "de": "Skyr Natur",
-          "en": "Skyr, plain",
-          "per_portion": 80,
-          "total": 160,
-          "unit": "g"
-        },
-        {
-          "de": "Zitronen",
-          "en": "Lemons",
-          "per_portion": 25,
-          "total": 50,
-          "unit": "g"
-        },
-        {
-          "de": "Dill (Bund)",
-          "en": "Dill",
-          "per_portion": 5,
-          "total": 10,
-          "unit": "g"
-        },
-        {
-          "de": "Knoblauch",
-          "en": "Garlic",
-          "per_portion": 5,
-          "total": 10,
-          "unit": "g"
-        },
-        {
-          "de": "Olivenöl",
-          "en": "Olive oil",
-          "per_portion": 8,
-          "total": 16,
-          "unit": "ml"
-        },
-        {
-          "de": "Salz & Pfeffer",
-          "en": "Salt & pepper",
-          "per_portion": 1,
-          "total": 2,
-          "unit": "g"
-        }
-      ]
-    },
-    {
-      "label": "B",
       "portions": 3,
-      "id": "turkey-chili",
-      "name": "Turkey Chili with Kidney & Black Beans",
-      "track": "stovetop",
+      "id": "turkey-meatballs-fusilli",
+      "name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "track": "oven",
       "protein_source": "turkey",
-      "active_min": 20,
+      "active_min": 25,
       "total_min": 45,
-      "reheat": "Microwave 3:00 at 800 W. Reheats better than almost anything else here.",
+      "reheat": "Microwave 2:45 at 800 W.",
       "cold_ok": false,
       "macros": {
-        "protein": 67.4,
-        "carbs": 103.0,
-        "fiber": 24.3,
-        "fat": 29.6,
-        "kcal": 995.2
+        "protein": 70.0,
+        "carbs": 88.5,
+        "fiber": 20.1,
+        "fat": 34.5,
+        "kcal": 990.6
       },
       "steps": [
-        "Start the wholegrain rice: 25 minutes at a bare simmer, lid on, then 5 minutes off the heat.",
-        "Brown the turkey mince in the olive oil over high heat without stirring for the first 3 minutes — you want colour on it, not grey crumbs.",
-        "Add the diced onion and pepper, cook 6 minutes, then the garlic, cumin, smoked paprika and chilli for a minute.",
-        "Stir in the tomato paste, cook 2 minutes, then the chopped tomatoes and 100 ml water per portion.",
-        "Add the drained beans and corn. Simmer uncovered 20 minutes until it thickens — a chilli that's loose now will be watery on Thursday.",
-        "Cool uncovered, then portion over the rice."
+        "Oven to 200 °C fan. Blitz or crush the oats to a coarse meal and mix into the turkey mince with half the grated onion, half the garlic, oregano, salt and pepper. Roll into 4 cm balls.",
+        "Roast the meatballs on a lined tray for 18 minutes. No frying, no turning.",
+        "Meanwhile sweat the remaining onion in the olive oil, add the garlic and chilli, then the tomato paste for 2 minutes.",
+        "Add the passata and 80 ml water per portion. Simmer 15 minutes until it darkens and thickens.",
+        "Boil the fusilli one minute short of the packet time — it softens further on reheating. Add the peas for the final 2 minutes. Drain.",
+        "Fold the meatballs through the sauce off the heat. Box pasta, then meatballs and sauce, parmesan over the top."
       ],
       "ingredients": [
         {
@@ -148,52 +56,52 @@ window.__PLAN__ = {
           "unit": "g"
         },
         {
-          "de": "Kidneybohnen (Dose)",
-          "en": "Kidney beans, canned",
-          "per_portion": 100,
-          "total": 300,
-          "unit": "g"
-        },
-        {
-          "de": "Schwarze Bohnen (Dose)",
-          "en": "Black beans, canned",
-          "per_portion": 80,
-          "total": 240,
-          "unit": "g"
-        },
-        {
-          "de": "Mais (Dose)",
-          "en": "Sweetcorn, canned",
-          "per_portion": 50,
-          "total": 150,
-          "unit": "g"
-        },
-        {
-          "de": "Stückige Tomaten (Dose)",
-          "en": "Chopped tomatoes",
-          "per_portion": 150,
-          "total": 450,
-          "unit": "g"
-        },
-        {
-          "de": "Tomatenmark",
-          "en": "Tomato paste",
+          "de": "Haferflocken zart",
+          "en": "Rolled oats",
           "per_portion": 20,
           "total": 60,
           "unit": "g"
         },
         {
-          "de": "Paprika rot",
-          "en": "Red bell pepper",
+          "de": "Passierte Tomaten",
+          "en": "Passata",
+          "per_portion": 180,
+          "total": 540,
+          "unit": "g"
+        },
+        {
+          "de": "Vollkorn-Fusilli",
+          "en": "Wholewheat fusilli, dry",
           "per_portion": 80,
           "total": 240,
           "unit": "g"
         },
         {
+          "de": "Erbsen (TK)",
+          "en": "Peas, frozen",
+          "per_portion": 100,
+          "total": 300,
+          "unit": "g"
+        },
+        {
+          "de": "Parmigiano Reggiano",
+          "en": "Parmesan",
+          "per_portion": 20,
+          "total": 60,
+          "unit": "g"
+        },
+        {
           "de": "Zwiebeln",
           "en": "Onions",
-          "per_portion": 60,
-          "total": 180,
+          "per_portion": 50,
+          "total": 150,
+          "unit": "g"
+        },
+        {
+          "de": "Tomatenmark",
+          "en": "Tomato paste",
+          "per_portion": 15,
+          "total": 45,
           "unit": "g"
         },
         {
@@ -204,13 +112,6 @@ window.__PLAN__ = {
           "unit": "g"
         },
         {
-          "de": "Vollkorn-Basmatireis",
-          "en": "Wholegrain basmati, dry",
-          "per_portion": 70,
-          "total": 210,
-          "unit": "g"
-        },
-        {
           "de": "Olivenöl",
           "en": "Olive oil",
           "per_portion": 8,
@@ -218,15 +119,8 @@ window.__PLAN__ = {
           "unit": "ml"
         },
         {
-          "de": "Kreuzkümmel gemahlen",
-          "en": "Ground cumin",
-          "per_portion": 3,
-          "total": 9,
-          "unit": "g"
-        },
-        {
-          "de": "Paprikapulver geräuchert",
-          "en": "Smoked paprika",
+          "de": "Oregano getrocknet",
+          "en": "Dried oregano",
           "per_portion": 3,
           "total": 9,
           "unit": "g"
@@ -246,41 +140,154 @@ window.__PLAN__ = {
           "unit": "g"
         }
       ]
+    },
+    {
+      "label": "B",
+      "portions": 2,
+      "id": "chicken-chickpea-curry",
+      "name": "Chicken & Chickpea Curry with Basmati",
+      "track": "stovetop",
+      "protein_source": "chicken",
+      "active_min": 25,
+      "total_min": 40,
+      "reheat": "Microwave 2:30 at 800 W, stir at halfway.",
+      "cold_ok": false,
+      "macros": {
+        "protein": 72.0,
+        "carbs": 85.7,
+        "fiber": 14.0,
+        "fat": 20.7,
+        "kcal": 847.9
+      },
+      "steps": [
+        "Rinse the basmati until the water runs clear, then simmer it in 1.5× its volume of salted water, lid on, 11 minutes. Kill the heat and leave it covered for 10 more.",
+        "Dice the chicken into 3 cm cubes. Sear it in the olive oil over high heat in batches — crowd the pan and it steams instead of browning. Set aside.",
+        "Drop the heat to medium. Sweat the diced onion 5 minutes, add the crushed garlic, curry powder and cumin, and fry 60 seconds until the spices smell toasted.",
+        "Stir in the tomato paste and cook it out for 2 minutes, then add the coconut milk and 100 ml water per portion. Simmer 5 minutes.",
+        "Return the chicken with the drained chickpeas and the spinach. Simmer 8 minutes until the sauce coats a spoon. Season hard — it dulls in the fridge.",
+        "Cool uncovered 20 minutes, then portion rice and curry into containers."
+      ],
+      "ingredients": [
+        {
+          "de": "Hähnchenbrustfilet",
+          "en": "Chicken breast fillet",
+          "per_portion": 220,
+          "total": 440,
+          "unit": "g"
+        },
+        {
+          "de": "Kichererbsen (Dose)",
+          "en": "Chickpeas, canned",
+          "per_portion": 110,
+          "total": 220,
+          "unit": "g"
+        },
+        {
+          "de": "Blattspinat (TK)",
+          "en": "Leaf spinach, frozen",
+          "per_portion": 100,
+          "total": 200,
+          "unit": "g"
+        },
+        {
+          "de": "Kokosmilch light",
+          "en": "Light coconut milk",
+          "per_portion": 60,
+          "total": 120,
+          "unit": "ml"
+        },
+        {
+          "de": "Tomatenmark",
+          "en": "Tomato paste",
+          "per_portion": 25,
+          "total": 50,
+          "unit": "g"
+        },
+        {
+          "de": "Zwiebeln",
+          "en": "Onions",
+          "per_portion": 60,
+          "total": 120,
+          "unit": "g"
+        },
+        {
+          "de": "Knoblauch",
+          "en": "Garlic",
+          "per_portion": 8,
+          "total": 16,
+          "unit": "g"
+        },
+        {
+          "de": "Basmatireis",
+          "en": "Basmati rice, dry",
+          "per_portion": 75,
+          "total": 150,
+          "unit": "g"
+        },
+        {
+          "de": "Olivenöl",
+          "en": "Olive oil",
+          "per_portion": 8,
+          "total": 16,
+          "unit": "ml"
+        },
+        {
+          "de": "Currypulver",
+          "en": "Curry powder",
+          "per_portion": 4,
+          "total": 8,
+          "unit": "g"
+        },
+        {
+          "de": "Kreuzkümmel gemahlen",
+          "en": "Ground cumin",
+          "per_portion": 2,
+          "total": 4,
+          "unit": "g"
+        },
+        {
+          "de": "Salz & Pfeffer",
+          "en": "Salt & pepper",
+          "per_portion": 1,
+          "total": 2,
+          "unit": "g"
+        }
+      ]
     }
   ],
   "schedule": [
     {
       "day": "Monday",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Tuesday",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Wednesday",
-      "recipe_id": "turkey-chili",
-      "recipe_name": "Turkey Chili with Kidney & Black Beans",
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Thursday",
-      "recipe_id": "turkey-chili",
-      "recipe_name": "Turkey Chili with Kidney & Black Beans",
+      "recipe_id": "chicken-chickpea-curry",
+      "recipe_name": "Chicken & Chickpea Curry with Basmati",
       "storage": "freezer",
       "note": "Freeze Sunday. Move to the fridge on Wednesday evening."
     },
     {
       "day": "Friday",
-      "recipe_id": "turkey-chili",
-      "recipe_name": "Turkey Chili with Kidney & Black Beans",
+      "recipe_id": "chicken-chickpea-curry",
+      "recipe_name": "Chicken & Chickpea Curry with Basmati",
       "storage": "freezer",
       "note": "Freeze Sunday. Move to the fridge on Wednesday evening."
     }
@@ -290,44 +297,10 @@ window.__PLAN__ = {
       "aisle": "Produce",
       "items": [
         {
-          "id": "bell_pepper",
-          "de": "Paprika rot",
-          "en": "Red bell pepper",
-          "need": 240,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 500,
-          "buy_label": "1 × 500 g",
-          "pantry": false,
-          "note": "About 3 peppers to a 500 g pack."
-        },
-        {
-          "id": "broccoli",
-          "de": "Brokkoli",
-          "en": "Broccoli",
-          "need": 300,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 500,
-          "buy_label": "1 × 500 g",
-          "pantry": false
-        },
-        {
-          "id": "dill",
-          "de": "Dill (Bund)",
-          "en": "Dill",
-          "need": 10,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 20,
-          "buy_label": "1 × 20 g",
-          "pantry": false
-        },
-        {
           "id": "garlic",
           "de": "Knoblauch",
           "en": "Garlic",
-          "need": 34,
+          "need": 40,
           "unit": "g",
           "packs": 1,
           "pack_size": 50,
@@ -336,22 +309,10 @@ window.__PLAN__ = {
           "note": "One bulb is roughly 50 g."
         },
         {
-          "id": "lemon",
-          "de": "Zitronen",
-          "en": "Lemons",
-          "need": 50,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 100,
-          "buy_label": "1 × 100 g",
-          "pantry": false,
-          "note": "One lemon is roughly 100 g."
-        },
-        {
           "id": "onion",
           "de": "Zwiebeln",
           "en": "Onions",
-          "need": 180,
+          "need": 270,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
@@ -363,6 +324,17 @@ window.__PLAN__ = {
     {
       "aisle": "Fresh meat & fish",
       "items": [
+        {
+          "id": "chicken_breast",
+          "de": "Hähnchenbrustfilet",
+          "en": "Chicken breast fillet",
+          "need": 440,
+          "unit": "g",
+          "packs": 2,
+          "pack_size": 400,
+          "buy_label": "2 × 400 g",
+          "pantry": false
+        },
         {
           "id": "turkey_mince",
           "de": "Putenhackfleisch",
@@ -380,10 +352,37 @@ window.__PLAN__ = {
       "aisle": "Chilled & dairy",
       "items": [
         {
-          "id": "skyr",
-          "de": "Skyr Natur",
-          "en": "Skyr, plain",
-          "need": 160,
+          "id": "parmesan",
+          "de": "Parmigiano Reggiano",
+          "en": "Parmesan",
+          "need": 60,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 150,
+          "buy_label": "1 × 150 g",
+          "pantry": false
+        }
+      ]
+    },
+    {
+      "aisle": "Frozen",
+      "items": [
+        {
+          "id": "peas_frozen",
+          "de": "Erbsen (TK)",
+          "en": "Peas, frozen",
+          "need": 300,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 450,
+          "buy_label": "1 × 450 g",
+          "pantry": false
+        },
+        {
+          "id": "spinach_frozen",
+          "de": "Blattspinat (TK)",
+          "en": "Leaf spinach, frozen",
+          "need": 200,
           "unit": "g",
           "packs": 1,
           "pack_size": 450,
@@ -393,77 +392,47 @@ window.__PLAN__ = {
       ]
     },
     {
-      "aisle": "Frozen",
-      "items": [
-        {
-          "id": "wild_salmon",
-          "de": "Wildlachsfilet, Alaska (MSC, TK)",
-          "en": "Wild-caught salmon fillet",
-          "need": 400,
-          "unit": "g",
-          "packs": 2,
-          "pack_size": 250,
-          "buy_label": "2 × 250 g",
-          "pantry": false,
-          "note": "MSC Alaska/Pacific only — never farmed Atlantic salmon."
-        }
-      ]
-    },
-    {
       "aisle": "Cans & jars",
       "items": [
         {
-          "id": "black_beans_canned",
-          "de": "Schwarze Bohnen (Dose)",
-          "en": "Black beans, canned",
-          "need": 240,
+          "id": "chickpeas_canned",
+          "de": "Kichererbsen (Dose)",
+          "en": "Chickpeas, canned",
+          "need": 220,
           "unit": "g",
           "packs": 1,
           "pack_size": 265,
           "buy_label": "1 × 265 g",
           "pantry": false,
-          "note": "Drained weight."
+          "note": "Drained weight; a 400 g can drains to about 265 g."
         },
         {
-          "id": "chopped_tomatoes",
-          "de": "Stückige Tomaten (Dose)",
-          "en": "Chopped tomatoes",
-          "need": 450,
-          "unit": "g",
-          "packs": 2,
+          "id": "coconut_milk_light",
+          "de": "Kokosmilch light",
+          "en": "Light coconut milk",
+          "need": 120,
+          "unit": "ml",
+          "packs": 1,
           "pack_size": 400,
-          "buy_label": "2 × 400 g",
+          "buy_label": "1 × 400 ml",
           "pantry": false
         },
         {
-          "id": "corn_canned",
-          "de": "Mais (Dose)",
-          "en": "Sweetcorn, canned",
-          "need": 150,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 285,
-          "buy_label": "1 × 285 g",
-          "pantry": false,
-          "note": "Drained weight."
-        },
-        {
-          "id": "kidney_beans_canned",
-          "de": "Kidneybohnen (Dose)",
-          "en": "Kidney beans, canned",
-          "need": 300,
+          "id": "passata",
+          "de": "Passierte Tomaten",
+          "en": "Passata",
+          "need": 540,
           "unit": "g",
           "packs": 2,
-          "pack_size": 265,
-          "buy_label": "2 × 265 g",
-          "pantry": false,
-          "note": "Drained weight."
+          "pack_size": 500,
+          "buy_label": "2 × 500 g",
+          "pantry": false
         },
         {
           "id": "tomato_paste",
           "de": "Tomatenmark",
           "en": "Tomato paste",
-          "need": 60,
+          "need": 95,
           "unit": "g",
           "packs": 1,
           "pack_size": 200,
@@ -476,10 +445,10 @@ window.__PLAN__ = {
       "aisle": "Dry goods",
       "items": [
         {
-          "id": "beluga_lentils",
-          "de": "Belugalinsen",
-          "en": "Beluga lentils, dry",
-          "need": 160,
+          "id": "basmati_rice",
+          "de": "Basmatireis",
+          "en": "Basmati rice, dry",
+          "need": 150,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
@@ -487,10 +456,21 @@ window.__PLAN__ = {
           "pantry": false
         },
         {
-          "id": "brown_rice",
-          "de": "Vollkorn-Basmatireis",
-          "en": "Wholegrain basmati, dry",
-          "need": 210,
+          "id": "oats",
+          "de": "Haferflocken zart",
+          "en": "Rolled oats",
+          "need": 60,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 500,
+          "buy_label": "1 × 500 g",
+          "pantry": false
+        },
+        {
+          "id": "wholewheat_pasta",
+          "de": "Vollkorn-Fusilli",
+          "en": "Wholewheat fusilli, dry",
+          "need": 240,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
@@ -517,11 +497,22 @@ window.__PLAN__ = {
           "id": "cumin",
           "de": "Kreuzkümmel gemahlen",
           "en": "Ground cumin",
-          "need": 9,
+          "need": 4,
           "unit": "g",
           "packs": 1,
           "pack_size": 40,
           "buy_label": "1 × 40 g",
+          "pantry": true
+        },
+        {
+          "id": "curry_powder",
+          "de": "Currypulver",
+          "en": "Curry powder",
+          "need": 8,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 50,
+          "buy_label": "1 × 50 g",
           "pantry": true
         },
         {
@@ -536,6 +527,17 @@ window.__PLAN__ = {
           "pantry": true
         },
         {
+          "id": "oregano",
+          "de": "Oregano getrocknet",
+          "en": "Dried oregano",
+          "need": 9,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 20,
+          "buy_label": "1 × 20 g",
+          "pantry": true
+        },
+        {
           "id": "salt_pepper",
           "de": "Salz & Pfeffer",
           "en": "Salt & pepper",
@@ -545,17 +547,6 @@ window.__PLAN__ = {
           "pack_size": 100,
           "buy_label": "1 × 100 g",
           "pantry": true
-        },
-        {
-          "id": "smoked_paprika",
-          "de": "Paprikapulver geräuchert",
-          "en": "Smoked paprika",
-          "need": 9,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 50,
-          "buy_label": "1 × 50 g",
-          "pantry": true
         }
       ]
     }
@@ -564,122 +555,122 @@ window.__PLAN__ = {
     {
       "lane": "A",
       "track": "oven",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
       "at": 0,
-      "minutes": 22,
+      "minutes": 12,
       "step": 1,
-      "text": "Oven to 200 °C fan. Simmer the beluga lentils in plenty of salted water for 20 minutes — they should hold their shape, not collapse."
+      "text": "Oven to 200 °C fan. Blitz or crush the oats to a coarse meal and mix into the turkey mince with half the grated onion, half the garlic, oregano, salt and pepper. Roll into 4 cm balls."
     },
     {
       "lane": "B",
       "track": "stovetop",
-      "recipe_id": "turkey-chili",
-      "recipe_name": "Turkey Chili with Kidney & Black Beans",
+      "recipe_id": "chicken-chickpea-curry",
+      "recipe_name": "Chicken & Chickpea Curry with Basmati",
       "at": 0,
-      "minutes": 30,
+      "minutes": 21,
       "step": 1,
-      "text": "Start the wholegrain rice: 25 minutes at a bare simmer, lid on, then 5 minutes off the heat."
+      "text": "Rinse the basmati until the water runs clear, then simmer it in 1.5× its volume of salted water, lid on, 11 minutes. Kill the heat and leave it covered for 10 more."
     },
     {
       "lane": "B",
       "track": "stovetop",
-      "recipe_id": "turkey-chili",
-      "recipe_name": "Turkey Chili with Kidney & Black Beans",
+      "recipe_id": "chicken-chickpea-curry",
+      "recipe_name": "Chicken & Chickpea Curry with Basmati",
       "at": 3,
-      "minutes": 7,
+      "minutes": 8,
       "step": 2,
-      "text": "Brown the turkey mince in the olive oil over high heat without stirring for the first 3 minutes — you want colour on it, not grey crumbs."
+      "text": "Dice the chicken into 3 cm cubes. Sear it in the olive oil over high heat in batches — crowd the pan and it steams instead of browning. Set aside."
+    },
+    {
+      "lane": "B",
+      "track": "stovetop",
+      "recipe_id": "chicken-chickpea-curry",
+      "recipe_name": "Chicken & Chickpea Curry with Basmati",
+      "at": 11,
+      "minutes": 6,
+      "step": 3,
+      "text": "Drop the heat to medium. Sweat the diced onion 5 minutes, add the crushed garlic, curry powder and cumin, and fry 60 seconds until the spices smell toasted."
     },
     {
       "lane": "A",
       "track": "oven",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
-      "at": 4,
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "at": 12,
       "minutes": 18,
       "step": 2,
-      "text": "Toss the broccoli florets in half the olive oil, salt and pepper. Roast 18 minutes on the top shelf until the edges char."
+      "text": "Roast the meatballs on a lined tray for 18 minutes. No frying, no turning."
     },
     {
       "lane": "A",
       "track": "oven",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
-      "at": 10,
-      "minutes": 12,
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "at": 12,
+      "minutes": 6,
       "step": 3,
-      "text": "Pat the thawed salmon dry, oil it, season, and roast 11–12 minutes on a lined tray. Pull it at just-opaque; it carries on cooking as it cools."
+      "text": "Meanwhile sweat the remaining onion in the olive oil, add the garlic and chilli, then the tomato paste for 2 minutes."
     },
     {
       "lane": "B",
       "track": "stovetop",
-      "recipe_id": "turkey-chili",
-      "recipe_name": "Turkey Chili with Kidney & Black Beans",
-      "at": 10,
-      "minutes": 7,
-      "step": 3,
-      "text": "Add the diced onion and pepper, cook 6 minutes, then the garlic, cumin, smoked paprika and chilli for a minute."
-    },
-    {
-      "lane": "B",
-      "track": "stovetop",
-      "recipe_id": "turkey-chili",
-      "recipe_name": "Turkey Chili with Kidney & Black Beans",
+      "recipe_id": "chicken-chickpea-curry",
+      "recipe_name": "Chicken & Chickpea Curry with Basmati",
       "at": 17,
-      "minutes": 3,
+      "minutes": 7,
       "step": 4,
-      "text": "Stir in the tomato paste, cook 2 minutes, then the chopped tomatoes and 100 ml water per portion."
+      "text": "Stir in the tomato paste and cook it out for 2 minutes, then add the coconut milk and 100 ml water per portion. Simmer 5 minutes."
     },
     {
-      "lane": "B",
-      "track": "stovetop",
-      "recipe_id": "turkey-chili",
-      "recipe_name": "Turkey Chili with Kidney & Black Beans",
+      "lane": "A",
+      "track": "oven",
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "at": 18,
+      "minutes": 15,
+      "step": 4,
+      "text": "Add the passata and 80 ml water per portion. Simmer 15 minutes until it darkens and thickens."
+    },
+    {
+      "lane": "A",
+      "track": "oven",
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
       "at": 20,
-      "minutes": 20,
+      "minutes": 12,
       "step": 5,
-      "text": "Add the drained beans and corn. Simmer uncovered 20 minutes until it thickens — a chilli that's loose now will be watery on Thursday."
-    },
-    {
-      "lane": "A",
-      "track": "oven",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
-      "at": 22,
-      "minutes": 5,
-      "step": 4,
-      "text": "Mix the skyr with grated garlic, chopped dill, lemon zest and juice, salt and pepper. Loosen with a splash of water to a spoonable sauce."
-    },
-    {
-      "lane": "A",
-      "track": "oven",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
-      "at": 27,
-      "minutes": 3,
-      "step": 5,
-      "text": "Drain the lentils, dress them while warm with the remaining oil and a squeeze of lemon — warm lentils absorb dressing, cold ones don't."
-    },
-    {
-      "lane": "A",
-      "track": "oven",
-      "recipe_id": "salmon-beluga-lentils",
-      "recipe_name": "Wild Salmon, Beluga Lentils & Roasted Broccoli",
-      "at": 30,
-      "minutes": 10,
-      "step": 6,
-      "text": "Cool everything before boxing. The skyr sauce goes in a separate small container and gets spooned on at the desk."
+      "text": "Boil the fusilli one minute short of the packet time — it softens further on reheating. Add the peas for the final 2 minutes. Drain."
     },
     {
       "lane": "B",
       "track": "stovetop",
-      "recipe_id": "turkey-chili",
-      "recipe_name": "Turkey Chili with Kidney & Black Beans",
-      "at": 40,
-      "minutes": 5,
+      "recipe_id": "chicken-chickpea-curry",
+      "recipe_name": "Chicken & Chickpea Curry with Basmati",
+      "at": 24,
+      "minutes": 8,
+      "step": 5,
+      "text": "Return the chicken with the drained chickpeas and the spinach. Simmer 8 minutes until the sauce coats a spoon. Season hard — it dulls in the fridge."
+    },
+    {
+      "lane": "B",
+      "track": "stovetop",
+      "recipe_id": "chicken-chickpea-curry",
+      "recipe_name": "Chicken & Chickpea Curry with Basmati",
+      "at": 32,
+      "minutes": 8,
       "step": 6,
-      "text": "Cool uncovered, then portion over the rice."
+      "text": "Cool uncovered 20 minutes, then portion rice and curry into containers."
+    },
+    {
+      "lane": "A",
+      "track": "oven",
+      "recipe_id": "turkey-meatballs-fusilli",
+      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "at": 33,
+      "minutes": 12,
+      "step": 6,
+      "text": "Fold the meatballs through the sauce off the heat. Box pasta, then meatballs and sauce, parmesan over the top."
     }
   ]
 };
