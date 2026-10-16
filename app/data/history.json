@@ -55,5 +55,12 @@
       "turkey-meatballs-fusilli",
       "chicken-chickpea-curry"
     ]
+  },
+  {
+    "week_id": "2026-W43",
+    "recipe_ids": [
+      "harissa-chicken-quinoa",
+      "peanut-tofu-noodles"
+    ]
   }
 ]

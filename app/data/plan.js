@@ -1,11 +1,11 @@
 window.__PLAN__ = {
-  "week_id": "2026-W42",
-  "generated_at": "2026-10-09T13:13:19",
+  "week_id": "2026-W43",
+  "generated_at": "2026-10-16T10:54:18",
   "dates": {
-    "shop_by": "2026-10-10",
-    "cook_on": "2026-10-11",
-    "week_start": "2026-10-12",
-    "week_end": "2026-10-16"
+    "shop_by": "2026-10-17",
+    "cook_on": "2026-10-18",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-23"
   },
   "targets": {
     "protein_per_day": 170,
@@ -13,95 +13,102 @@ window.__PLAN__ = {
     "lunch_max": 85
   },
   "summary": {
-    "cook_minutes": 45,
+    "cook_minutes": 40,
     "portions": 5,
-    "protein_low": 70.0,
-    "protein_high": 72.0,
-    "protein_avg": 70.8,
+    "protein_low": 75.0,
+    "protein_high": 75.5,
+    "protein_avg": 75.3,
     "in_target": true
   },
   "meals": [
     {
       "label": "A",
       "portions": 3,
-      "id": "turkey-meatballs-fusilli",
-      "name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "id": "harissa-chicken-quinoa",
+      "name": "Harissa Chicken, Quinoa & Roasted Vegetables",
       "track": "oven",
-      "protein_source": "turkey",
-      "active_min": 25,
-      "total_min": 45,
-      "reheat": "Microwave 2:45 at 800 W.",
-      "cold_ok": false,
+      "protein_source": "chicken",
+      "active_min": 15,
+      "total_min": 40,
+      "reheat": "Microwave 2:15 at 800 W. Skyr goes on afterwards.",
+      "cold_ok": true,
       "macros": {
-        "protein": 70.0,
-        "carbs": 88.5,
-        "fiber": 20.1,
-        "fat": 34.5,
-        "kcal": 990.6
+        "protein": 75.5,
+        "carbs": 73.1,
+        "fiber": 18.1,
+        "fat": 19.2,
+        "kcal": 810.2
       },
       "steps": [
-        "Oven to 200 °C fan. Blitz or crush the oats to a coarse meal and mix into the turkey mince with half the grated onion, half the garlic, oregano, salt and pepper. Roll into 4 cm balls.",
-        "Roast the meatballs on a lined tray for 18 minutes. No frying, no turning.",
-        "Meanwhile sweat the remaining onion in the olive oil, add the garlic and chilli, then the tomato paste for 2 minutes.",
-        "Add the passata and 80 ml water per portion. Simmer 15 minutes until it darkens and thickens.",
-        "Boil the fusilli one minute short of the packet time — it softens further on reheating. Add the peas for the final 2 minutes. Drain.",
-        "Fold the meatballs through the sauce off the heat. Box pasta, then meatballs and sauce, parmesan over the top."
+        "Oven to 210 °C fan. Rub the chicken with the harissa, half the oil, cumin, garlic and salt.",
+        "Rinse the quinoa — skipping this leaves it bitter — then simmer 15 minutes in salted water and drain well.",
+        "Toss the courgette, pepper and red onion in the rest of the oil on a large tray. Give them room; a crowded tray steams.",
+        "Slide the chicken onto the same tray and roast 22 minutes, until the chicken hits 72 °C and the vegetable edges catch.",
+        "Fold the drained white beans and lemon juice through the warm quinoa.",
+        "Rest and slice the chicken. Box quinoa, vegetables, chicken. Skyr in a separate pot, thinned with lemon and salt."
       ],
       "ingredients": [
         {
-          "de": "Putenhackfleisch",
-          "en": "Turkey mince",
+          "de": "Hähnchenbrustfilet",
+          "en": "Chicken breast fillet",
           "per_portion": 200,
           "total": 600,
           "unit": "g"
         },
         {
-          "de": "Haferflocken zart",
-          "en": "Rolled oats",
-          "per_portion": 20,
-          "total": 60,
+          "de": "Quinoa",
+          "en": "Quinoa, dry",
+          "per_portion": 70,
+          "total": 210,
           "unit": "g"
         },
         {
-          "de": "Passierte Tomaten",
-          "en": "Passata",
-          "per_portion": 180,
-          "total": 540,
+          "de": "Weiße Bohnen (Dose)",
+          "en": "White beans, canned",
+          "per_portion": 120,
+          "total": 360,
           "unit": "g"
         },
         {
-          "de": "Vollkorn-Fusilli",
-          "en": "Wholewheat fusilli, dry",
-          "per_portion": 80,
-          "total": 240,
-          "unit": "g"
-        },
-        {
-          "de": "Erbsen (TK)",
-          "en": "Peas, frozen",
+          "de": "Zucchini",
+          "en": "Courgette",
           "per_portion": 100,
           "total": 300,
           "unit": "g"
         },
         {
-          "de": "Parmigiano Reggiano",
-          "en": "Parmesan",
-          "per_portion": 20,
-          "total": 60,
+          "de": "Paprika rot",
+          "en": "Red bell pepper",
+          "per_portion": 80,
+          "total": 240,
           "unit": "g"
         },
         {
-          "de": "Zwiebeln",
-          "en": "Onions",
+          "de": "Rote Zwiebeln",
+          "en": "Red onions",
           "per_portion": 50,
           "total": 150,
           "unit": "g"
         },
         {
-          "de": "Tomatenmark",
-          "en": "Tomato paste",
+          "de": "Skyr Natur",
+          "en": "Skyr, plain",
+          "per_portion": 60,
+          "total": 180,
+          "unit": "g"
+        },
+        {
+          "de": "Harissa Paste",
+          "en": "Harissa paste",
           "per_portion": 15,
           "total": 45,
+          "unit": "g"
+        },
+        {
+          "de": "Zitronen",
+          "en": "Lemons",
+          "per_portion": 25,
+          "total": 75,
           "unit": "g"
         },
         {
@@ -114,22 +121,15 @@ window.__PLAN__ = {
         {
           "de": "Olivenöl",
           "en": "Olive oil",
-          "per_portion": 8,
-          "total": 24,
+          "per_portion": 10,
+          "total": 30,
           "unit": "ml"
         },
         {
-          "de": "Oregano getrocknet",
-          "en": "Dried oregano",
-          "per_portion": 3,
-          "total": 9,
-          "unit": "g"
-        },
-        {
-          "de": "Chiliflocken",
-          "en": "Chilli flakes",
-          "per_portion": 1,
-          "total": 3,
+          "de": "Kreuzkümmel gemahlen",
+          "en": "Ground cumin",
+          "per_portion": 2,
+          "total": 6,
           "unit": "g"
         },
         {
@@ -144,70 +144,84 @@ window.__PLAN__ = {
     {
       "label": "B",
       "portions": 2,
-      "id": "chicken-chickpea-curry",
-      "name": "Chicken & Chickpea Curry with Basmati",
+      "id": "peanut-tofu-noodles",
+      "name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
       "track": "stovetop",
-      "protein_source": "chicken",
-      "active_min": 25,
-      "total_min": 40,
-      "reheat": "Microwave 2:30 at 800 W, stir at halfway.",
-      "cold_ok": false,
+      "protein_source": "tofu",
+      "active_min": 20,
+      "total_min": 30,
+      "reheat": "Microwave 2:00 at 800 W, or eat it cold — it is genuinely good cold.",
+      "cold_ok": true,
       "macros": {
-        "protein": 72.0,
-        "carbs": 85.7,
-        "fiber": 14.0,
-        "fat": 20.7,
-        "kcal": 847.9
+        "protein": 75.0,
+        "carbs": 79.8,
+        "fiber": 26.5,
+        "fat": 57.4,
+        "kcal": 1188.4
       },
       "steps": [
-        "Rinse the basmati until the water runs clear, then simmer it in 1.5× its volume of salted water, lid on, 11 minutes. Kill the heat and leave it covered for 10 more.",
-        "Dice the chicken into 3 cm cubes. Sear it in the olive oil over high heat in batches — crowd the pan and it steams instead of browning. Set aside.",
-        "Drop the heat to medium. Sweat the diced onion 5 minutes, add the crushed garlic, curry powder and cumin, and fry 60 seconds until the spices smell toasted.",
-        "Stir in the tomato paste and cook it out for 2 minutes, then add the coconut milk and 100 ml water per portion. Simmer 5 minutes.",
-        "Return the chicken with the drained chickpeas and the spinach. Simmer 8 minutes until the sauce coats a spoon. Season hard — it dulls in the fridge.",
-        "Cool uncovered 20 minutes, then portion rice and curry into containers."
+        "Boil the wholewheat pasta one minute short of the packet time. Drop the broccoli and edamame in for the last 3 minutes. Save a mug of the cooking water, then drain and rinse under cold water to stop the cooking.",
+        "Cube the smoked tofu and fry it in the olive oil until crisp on at least three sides — 8 minutes, don't rush it.",
+        "Whisk the peanut butter, soy sauce, lime juice, grated garlic and ginger, sesame oil and chilli with 60 ml of the pasta water per portion until it pours like cream.",
+        "Julienne the carrot raw — it keeps its bite all week where cooked carrot goes soft.",
+        "Toss everything together while the noodles are still cool. Loosen with more pasta water if it tightens.",
+        "Box straight away. This one needs no cooling time."
       ],
       "ingredients": [
         {
-          "de": "Hähnchenbrustfilet",
-          "en": "Chicken breast fillet",
-          "per_portion": 220,
-          "total": 440,
+          "de": "Räuchertofu",
+          "en": "Smoked tofu",
+          "per_portion": 200,
+          "total": 400,
           "unit": "g"
         },
         {
-          "de": "Kichererbsen (Dose)",
-          "en": "Chickpeas, canned",
-          "per_portion": 110,
-          "total": 220,
+          "de": "Edamame (TK)",
+          "en": "Edamame, frozen",
+          "per_portion": 150,
+          "total": 300,
           "unit": "g"
         },
         {
-          "de": "Blattspinat (TK)",
-          "en": "Leaf spinach, frozen",
-          "per_portion": 100,
-          "total": 200,
+          "de": "Vollkorn-Fusilli",
+          "en": "Wholewheat fusilli, dry",
+          "per_portion": 80,
+          "total": 160,
           "unit": "g"
         },
         {
-          "de": "Kokosmilch light",
-          "en": "Light coconut milk",
-          "per_portion": 60,
-          "total": 120,
+          "de": "Brokkoli",
+          "en": "Broccoli",
+          "per_portion": 120,
+          "total": 240,
+          "unit": "g"
+        },
+        {
+          "de": "Erdnussmus",
+          "en": "Peanut butter, unsweetened",
+          "per_portion": 30,
+          "total": 60,
+          "unit": "g"
+        },
+        {
+          "de": "Sojasauce",
+          "en": "Soy sauce",
+          "per_portion": 20,
+          "total": 40,
           "unit": "ml"
         },
         {
-          "de": "Tomatenmark",
-          "en": "Tomato paste",
-          "per_portion": 25,
-          "total": 50,
+          "de": "Karotten",
+          "en": "Carrots",
+          "per_portion": 60,
+          "total": 120,
           "unit": "g"
         },
         {
-          "de": "Zwiebeln",
-          "en": "Onions",
-          "per_portion": 60,
-          "total": 120,
+          "de": "Limetten",
+          "en": "Limes",
+          "per_portion": 15,
+          "total": 30,
           "unit": "g"
         },
         {
@@ -218,36 +232,29 @@ window.__PLAN__ = {
           "unit": "g"
         },
         {
-          "de": "Basmatireis",
-          "en": "Basmati rice, dry",
-          "per_portion": 75,
-          "total": 150,
+          "de": "Ingwer",
+          "en": "Ginger",
+          "per_portion": 8,
+          "total": 16,
           "unit": "g"
+        },
+        {
+          "de": "Sesamöl",
+          "en": "Toasted sesame oil",
+          "per_portion": 6,
+          "total": 12,
+          "unit": "ml"
         },
         {
           "de": "Olivenöl",
           "en": "Olive oil",
-          "per_portion": 8,
-          "total": 16,
+          "per_portion": 6,
+          "total": 12,
           "unit": "ml"
         },
         {
-          "de": "Currypulver",
-          "en": "Curry powder",
-          "per_portion": 4,
-          "total": 8,
-          "unit": "g"
-        },
-        {
-          "de": "Kreuzkümmel gemahlen",
-          "en": "Ground cumin",
-          "per_portion": 2,
-          "total": 4,
-          "unit": "g"
-        },
-        {
-          "de": "Salz & Pfeffer",
-          "en": "Salt & pepper",
+          "de": "Chiliflocken",
+          "en": "Chilli flakes",
           "per_portion": 1,
           "total": 2,
           "unit": "g"
@@ -258,36 +265,36 @@ window.__PLAN__ = {
   "schedule": [
     {
       "day": "Monday",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Tuesday",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Wednesday",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
       "storage": "fridge",
       "note": "Straight into the fridge."
     },
     {
       "day": "Thursday",
-      "recipe_id": "chicken-chickpea-curry",
-      "recipe_name": "Chicken & Chickpea Curry with Basmati",
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
       "storage": "freezer",
       "note": "Freeze Sunday. Move to the fridge on Wednesday evening."
     },
     {
       "day": "Friday",
-      "recipe_id": "chicken-chickpea-curry",
-      "recipe_name": "Chicken & Chickpea Curry with Basmati",
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
       "storage": "freezer",
       "note": "Freeze Sunday. Move to the fridge on Wednesday evening."
     }
@@ -296,6 +303,40 @@ window.__PLAN__ = {
     {
       "aisle": "Produce",
       "items": [
+        {
+          "id": "bell_pepper",
+          "de": "Paprika rot",
+          "en": "Red bell pepper",
+          "need": 240,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 500,
+          "buy_label": "1 × 500 g",
+          "pantry": false,
+          "note": "About 3 peppers to a 500 g pack."
+        },
+        {
+          "id": "broccoli",
+          "de": "Brokkoli",
+          "en": "Broccoli",
+          "need": 240,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 500,
+          "buy_label": "1 × 500 g",
+          "pantry": false
+        },
+        {
+          "id": "carrot",
+          "de": "Karotten",
+          "en": "Carrots",
+          "need": 120,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 1000,
+          "buy_label": "1 × 1000 g",
+          "pantry": false
+        },
         {
           "id": "garlic",
           "de": "Knoblauch",
@@ -309,14 +350,60 @@ window.__PLAN__ = {
           "note": "One bulb is roughly 50 g."
         },
         {
-          "id": "onion",
-          "de": "Zwiebeln",
-          "en": "Onions",
-          "need": 270,
+          "id": "ginger",
+          "de": "Ingwer",
+          "en": "Ginger",
+          "need": 16,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 100,
+          "buy_label": "1 × 100 g",
+          "pantry": false
+        },
+        {
+          "id": "lemon",
+          "de": "Zitronen",
+          "en": "Lemons",
+          "need": 75,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 100,
+          "buy_label": "1 × 100 g",
+          "pantry": false,
+          "note": "One lemon is roughly 100 g."
+        },
+        {
+          "id": "lime",
+          "de": "Limetten",
+          "en": "Limes",
+          "need": 30,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 70,
+          "buy_label": "1 × 70 g",
+          "pantry": false,
+          "note": "One lime is roughly 70 g."
+        },
+        {
+          "id": "red_onion",
+          "de": "Rote Zwiebeln",
+          "en": "Red onions",
+          "need": 150,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
           "buy_label": "1 × 500 g",
+          "pantry": false
+        },
+        {
+          "id": "zucchini",
+          "de": "Zucchini",
+          "en": "Courgette",
+          "need": 300,
+          "unit": "g",
+          "packs": 1,
+          "pack_size": 400,
+          "buy_label": "1 × 400 g",
           "pantry": false
         }
       ]
@@ -328,22 +415,11 @@ window.__PLAN__ = {
           "id": "chicken_breast",
           "de": "Hähnchenbrustfilet",
           "en": "Chicken breast fillet",
-          "need": 440,
+          "need": 600,
           "unit": "g",
           "packs": 2,
           "pack_size": 400,
           "buy_label": "2 × 400 g",
-          "pantry": false
-        },
-        {
-          "id": "turkey_mince",
-          "de": "Putenhackfleisch",
-          "en": "Turkey mince",
-          "need": 600,
-          "unit": "g",
-          "packs": 2,
-          "pack_size": 500,
-          "buy_label": "2 × 500 g",
           "pantry": false
         }
       ]
@@ -352,14 +428,25 @@ window.__PLAN__ = {
       "aisle": "Chilled & dairy",
       "items": [
         {
-          "id": "parmesan",
-          "de": "Parmigiano Reggiano",
-          "en": "Parmesan",
-          "need": 60,
+          "id": "skyr",
+          "de": "Skyr Natur",
+          "en": "Skyr, plain",
+          "need": 180,
           "unit": "g",
           "packs": 1,
-          "pack_size": 150,
-          "buy_label": "1 × 150 g",
+          "pack_size": 450,
+          "buy_label": "1 × 450 g",
+          "pantry": false
+        },
+        {
+          "id": "smoked_tofu",
+          "de": "Räuchertofu",
+          "en": "Smoked tofu",
+          "need": 400,
+          "unit": "g",
+          "packs": 2,
+          "pack_size": 200,
+          "buy_label": "2 × 200 g",
           "pantry": false
         }
       ]
@@ -368,25 +455,14 @@ window.__PLAN__ = {
       "aisle": "Frozen",
       "items": [
         {
-          "id": "peas_frozen",
-          "de": "Erbsen (TK)",
-          "en": "Peas, frozen",
+          "id": "edamame_frozen",
+          "de": "Edamame (TK)",
+          "en": "Edamame, frozen",
           "need": 300,
           "unit": "g",
           "packs": 1,
-          "pack_size": 450,
-          "buy_label": "1 × 450 g",
-          "pantry": false
-        },
-        {
-          "id": "spinach_frozen",
-          "de": "Blattspinat (TK)",
-          "en": "Leaf spinach, frozen",
-          "need": 200,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 450,
-          "buy_label": "1 × 450 g",
+          "pack_size": 300,
+          "buy_label": "1 × 300 g",
           "pantry": false
         }
       ]
@@ -395,49 +471,16 @@ window.__PLAN__ = {
       "aisle": "Cans & jars",
       "items": [
         {
-          "id": "chickpeas_canned",
-          "de": "Kichererbsen (Dose)",
-          "en": "Chickpeas, canned",
-          "need": 220,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 265,
-          "buy_label": "1 × 265 g",
-          "pantry": false,
-          "note": "Drained weight; a 400 g can drains to about 265 g."
-        },
-        {
-          "id": "coconut_milk_light",
-          "de": "Kokosmilch light",
-          "en": "Light coconut milk",
-          "need": 120,
-          "unit": "ml",
-          "packs": 1,
-          "pack_size": 400,
-          "buy_label": "1 × 400 ml",
-          "pantry": false
-        },
-        {
-          "id": "passata",
-          "de": "Passierte Tomaten",
-          "en": "Passata",
-          "need": 540,
+          "id": "white_beans_canned",
+          "de": "Weiße Bohnen (Dose)",
+          "en": "White beans, canned",
+          "need": 360,
           "unit": "g",
           "packs": 2,
-          "pack_size": 500,
-          "buy_label": "2 × 500 g",
-          "pantry": false
-        },
-        {
-          "id": "tomato_paste",
-          "de": "Tomatenmark",
-          "en": "Tomato paste",
-          "need": 95,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 200,
-          "buy_label": "1 × 200 g",
-          "pantry": false
+          "pack_size": 265,
+          "buy_label": "2 × 265 g",
+          "pantry": false,
+          "note": "Drained weight."
         }
       ]
     },
@@ -445,21 +488,21 @@ window.__PLAN__ = {
       "aisle": "Dry goods",
       "items": [
         {
-          "id": "basmati_rice",
-          "de": "Basmatireis",
-          "en": "Basmati rice, dry",
-          "need": 150,
+          "id": "peanut_butter",
+          "de": "Erdnussmus",
+          "en": "Peanut butter, unsweetened",
+          "need": 60,
           "unit": "g",
           "packs": 1,
-          "pack_size": 500,
-          "buy_label": "1 × 500 g",
+          "pack_size": 350,
+          "buy_label": "1 × 350 g",
           "pantry": false
         },
         {
-          "id": "oats",
-          "de": "Haferflocken zart",
-          "en": "Rolled oats",
-          "need": 60,
+          "id": "quinoa",
+          "de": "Quinoa",
+          "en": "Quinoa, dry",
+          "need": 210,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
@@ -470,7 +513,7 @@ window.__PLAN__ = {
           "id": "wholewheat_pasta",
           "de": "Vollkorn-Fusilli",
           "en": "Wholewheat fusilli, dry",
-          "need": 240,
+          "need": 160,
           "unit": "g",
           "packs": 1,
           "pack_size": 500,
@@ -486,7 +529,7 @@ window.__PLAN__ = {
           "id": "chili_flakes",
           "de": "Chiliflocken",
           "en": "Chilli flakes",
-          "need": 3,
+          "need": 2,
           "unit": "g",
           "packs": 1,
           "pack_size": 30,
@@ -497,7 +540,7 @@ window.__PLAN__ = {
           "id": "cumin",
           "de": "Kreuzkümmel gemahlen",
           "en": "Ground cumin",
-          "need": 4,
+          "need": 6,
           "unit": "g",
           "packs": 1,
           "pack_size": 40,
@@ -505,21 +548,21 @@ window.__PLAN__ = {
           "pantry": true
         },
         {
-          "id": "curry_powder",
-          "de": "Currypulver",
-          "en": "Curry powder",
-          "need": 8,
+          "id": "harissa",
+          "de": "Harissa Paste",
+          "en": "Harissa paste",
+          "need": 45,
           "unit": "g",
           "packs": 1,
-          "pack_size": 50,
-          "buy_label": "1 × 50 g",
+          "pack_size": 100,
+          "buy_label": "1 × 100 g",
           "pantry": true
         },
         {
           "id": "olive_oil",
           "de": "Olivenöl",
           "en": "Olive oil",
-          "need": 40,
+          "need": 42,
           "unit": "ml",
           "packs": 1,
           "pack_size": 500,
@@ -527,25 +570,36 @@ window.__PLAN__ = {
           "pantry": true
         },
         {
-          "id": "oregano",
-          "de": "Oregano getrocknet",
-          "en": "Dried oregano",
-          "need": 9,
-          "unit": "g",
-          "packs": 1,
-          "pack_size": 20,
-          "buy_label": "1 × 20 g",
-          "pantry": true
-        },
-        {
           "id": "salt_pepper",
           "de": "Salz & Pfeffer",
           "en": "Salt & pepper",
-          "need": 5,
+          "need": 3,
           "unit": "g",
           "packs": 1,
           "pack_size": 100,
           "buy_label": "1 × 100 g",
+          "pantry": true
+        },
+        {
+          "id": "sesame_oil",
+          "de": "Sesamöl",
+          "en": "Toasted sesame oil",
+          "need": 12,
+          "unit": "ml",
+          "packs": 1,
+          "pack_size": 250,
+          "buy_label": "1 × 250 ml",
+          "pantry": true
+        },
+        {
+          "id": "soy_sauce",
+          "de": "Sojasauce",
+          "en": "Soy sauce",
+          "need": 40,
+          "unit": "ml",
+          "packs": 1,
+          "pack_size": 250,
+          "buy_label": "1 × 250 ml",
           "pantry": true
         }
       ]
@@ -555,122 +609,122 @@ window.__PLAN__ = {
     {
       "lane": "A",
       "track": "oven",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "at": 0,
+      "minutes": 8,
+      "step": 1,
+      "text": "Oven to 210 °C fan. Rub the chicken with the harissa, half the oil, cumin, garlic and salt."
+    },
+    {
+      "lane": "B",
+      "track": "stovetop",
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
       "at": 0,
       "minutes": 12,
       "step": 1,
-      "text": "Oven to 200 °C fan. Blitz or crush the oats to a coarse meal and mix into the turkey mince with half the grated onion, half the garlic, oregano, salt and pepper. Roll into 4 cm balls."
+      "text": "Boil the wholewheat pasta one minute short of the packet time. Drop the broccoli and edamame in for the last 3 minutes. Save a mug of the cooking water, then drain and rinse under cold water to stop the cooking."
     },
     {
       "lane": "B",
       "track": "stovetop",
-      "recipe_id": "chicken-chickpea-curry",
-      "recipe_name": "Chicken & Chickpea Curry with Basmati",
-      "at": 0,
-      "minutes": 21,
-      "step": 1,
-      "text": "Rinse the basmati until the water runs clear, then simmer it in 1.5× its volume of salted water, lid on, 11 minutes. Kill the heat and leave it covered for 10 more."
-    },
-    {
-      "lane": "B",
-      "track": "stovetop",
-      "recipe_id": "chicken-chickpea-curry",
-      "recipe_name": "Chicken & Chickpea Curry with Basmati",
-      "at": 3,
-      "minutes": 8,
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "at": 2,
+      "minutes": 10,
       "step": 2,
-      "text": "Dice the chicken into 3 cm cubes. Sear it in the olive oil over high heat in batches — crowd the pan and it steams instead of browning. Set aside."
-    },
-    {
-      "lane": "B",
-      "track": "stovetop",
-      "recipe_id": "chicken-chickpea-curry",
-      "recipe_name": "Chicken & Chickpea Curry with Basmati",
-      "at": 11,
-      "minutes": 6,
-      "step": 3,
-      "text": "Drop the heat to medium. Sweat the diced onion 5 minutes, add the crushed garlic, curry powder and cumin, and fry 60 seconds until the spices smell toasted."
+      "text": "Cube the smoked tofu and fry it in the olive oil until crisp on at least three sides — 8 minutes, don't rush it."
     },
     {
       "lane": "A",
       "track": "oven",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
-      "at": 12,
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "at": 4,
       "minutes": 18,
       "step": 2,
-      "text": "Roast the meatballs on a lined tray for 18 minutes. No frying, no turning."
+      "text": "Rinse the quinoa — skipping this leaves it bitter — then simmer 15 minutes in salted water and drain well."
     },
     {
       "lane": "A",
       "track": "oven",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
-      "at": 12,
-      "minutes": 6,
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "at": 8,
+      "minutes": 5,
       "step": 3,
-      "text": "Meanwhile sweat the remaining onion in the olive oil, add the garlic and chilli, then the tomato paste for 2 minutes."
+      "text": "Toss the courgette, pepper and red onion in the rest of the oil on a large tray. Give them room; a crowded tray steams."
     },
     {
       "lane": "B",
       "track": "stovetop",
-      "recipe_id": "chicken-chickpea-curry",
-      "recipe_name": "Chicken & Chickpea Curry with Basmati",
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "at": 12,
+      "minutes": 5,
+      "step": 3,
+      "text": "Whisk the peanut butter, soy sauce, lime juice, grated garlic and ginger, sesame oil and chilli with 60 ml of the pasta water per portion until it pours like cream."
+    },
+    {
+      "lane": "A",
+      "track": "oven",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "at": 13,
+      "minutes": 22,
+      "step": 4,
+      "text": "Slide the chicken onto the same tray and roast 22 minutes, until the chicken hits 72 °C and the vegetable edges catch."
+    },
+    {
+      "lane": "B",
+      "track": "stovetop",
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
       "at": 17,
-      "minutes": 7,
+      "minutes": 4,
       "step": 4,
-      "text": "Stir in the tomato paste and cook it out for 2 minutes, then add the coconut milk and 100 ml water per portion. Simmer 5 minutes."
-    },
-    {
-      "lane": "A",
-      "track": "oven",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
-      "at": 18,
-      "minutes": 15,
-      "step": 4,
-      "text": "Add the passata and 80 ml water per portion. Simmer 15 minutes until it darkens and thickens."
-    },
-    {
-      "lane": "A",
-      "track": "oven",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
-      "at": 20,
-      "minutes": 12,
-      "step": 5,
-      "text": "Boil the fusilli one minute short of the packet time — it softens further on reheating. Add the peas for the final 2 minutes. Drain."
+      "text": "Julienne the carrot raw — it keeps its bite all week where cooked carrot goes soft."
     },
     {
       "lane": "B",
       "track": "stovetop",
-      "recipe_id": "chicken-chickpea-curry",
-      "recipe_name": "Chicken & Chickpea Curry with Basmati",
-      "at": 24,
-      "minutes": 8,
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "at": 21,
+      "minutes": 5,
       "step": 5,
-      "text": "Return the chicken with the drained chickpeas and the spinach. Simmer 8 minutes until the sauce coats a spoon. Season hard — it dulls in the fridge."
-    },
-    {
-      "lane": "B",
-      "track": "stovetop",
-      "recipe_id": "chicken-chickpea-curry",
-      "recipe_name": "Chicken & Chickpea Curry with Basmati",
-      "at": 32,
-      "minutes": 8,
-      "step": 6,
-      "text": "Cool uncovered 20 minutes, then portion rice and curry into containers."
+      "text": "Toss everything together while the noodles are still cool. Loosen with more pasta water if it tightens."
     },
     {
       "lane": "A",
       "track": "oven",
-      "recipe_id": "turkey-meatballs-fusilli",
-      "recipe_name": "Turkey Meatballs in Tomato Sauce with Fusilli",
-      "at": 33,
-      "minutes": 12,
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "at": 22,
+      "minutes": 4,
+      "step": 5,
+      "text": "Fold the drained white beans and lemon juice through the warm quinoa."
+    },
+    {
+      "lane": "B",
+      "track": "stovetop",
+      "recipe_id": "peanut-tofu-noodles",
+      "recipe_name": "Peanut-Sesame Noodles with Smoked Tofu & Edamame",
+      "at": 26,
+      "minutes": 4,
       "step": 6,
-      "text": "Fold the meatballs through the sauce off the heat. Box pasta, then meatballs and sauce, parmesan over the top."
+      "text": "Box straight away. This one needs no cooling time."
+    },
+    {
+      "lane": "A",
+      "track": "oven",
+      "recipe_id": "harissa-chicken-quinoa",
+      "recipe_name": "Harissa Chicken, Quinoa & Roasted Vegetables",
+      "at": 35,
+      "minutes": 5,
+      "step": 6,
+      "text": "Rest and slice the chicken. Box quinoa, vegetables, chicken. Skyr in a separate pot, thinned with lemon and salt."
     }
   ]
 };
