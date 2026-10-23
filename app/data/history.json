@@ -62,5 +62,12 @@
       "harissa-chicken-quinoa",
       "peanut-tofu-noodles"
     ]
+  },
+  {
+    "week_id": "2026-W44",
+    "recipe_ids": [
+      "pollock-white-bean-stew",
+      "greek-chicken-bulgur"
+    ]
   }
 ]
