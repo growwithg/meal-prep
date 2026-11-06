@@ -76,5 +76,12 @@
       "salmon-beluga-lentils",
       "turkey-chili"
     ]
+  },
+  {
+    "week_id": "2026-W46",
+    "recipe_ids": [
+      "turkey-meatballs-fusilli",
+      "chicken-chickpea-curry"
+    ]
   }
 ]
