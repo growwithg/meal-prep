@@ -1,11 +1,18 @@
 name: Meal plan
 
-# Regenerates the week's plan every Friday morning and publishes the app.
+# PAUSED on 2026-11-12 at the reader's request — the weekly schedule below is
+# commented out, so no plan is generated automatically. Everything else is
+# intact: the app stays published and the current plan stays live.
+#
+# To resume, uncomment the two `schedule:` lines. The next Friday run picks up
+# from the week it falls in; it does not try to backfill the weeks missed while
+# paused. Meanwhile the Run workflow button still works for a one-off plan.
+#
 # 04:00 UTC is 06:00 in Berlin through summer time and 05:00 in winter —
 # either way, Friday morning, well before the Saturday shop.
 on:
-  schedule:
-    - cron: "0 4 * * 5"
+  # schedule:
+  #   - cron: "0 4 * * 5"
   push:
     branches: [main]
     paths:
